@@ -4618,7 +4618,6 @@
             sv: ["US West", -7],
             la: ["US West", -7],
             la: ["US West", -7],
-            world: ["Worldwide", null],
             london: ["Europe", 1],
             singapore: ["Asia", 8]
           },
@@ -4667,7 +4666,7 @@
             visible: 0,
             id: " domination",
             type: " domination",
-            code: "glitch-world-C",
+            code: "glitch-worldwide-C",
             at: p.glitch("idiot-2")
             // featured: 1, // For Featured Status.
           },
@@ -4675,7 +4674,7 @@
             visible: 0,
             id: " event",
             type: " EVENT",
-            code: "glitch-world-K",
+            code: "glitch-worldwide-K",
             at: p.glitch("dev-event-12sub")
             // featured: 1, // For Featured Status.
           },
@@ -4683,7 +4682,7 @@
             visible: 0,
             id: " mother",
             type: " Mothership",
-            code: "glitch-world-M",
+            code: "glitch-worldwide-M",
             at: p.glitch("nah--")
             // featured: 1, // For Featured Status.
           },
