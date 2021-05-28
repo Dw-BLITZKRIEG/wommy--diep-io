@@ -2324,7 +2324,7 @@
                 ia &&
                   (clearInterval(qa),
                   Y.push({
-                    text: "Thank you for playing WOMMY-",
+                    text: "Thank you for playing Wommy-arras.io!",
                     status: 2,
                     alpha: 0,
                     time: Date.now()
