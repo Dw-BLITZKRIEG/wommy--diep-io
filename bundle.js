@@ -4672,6 +4672,14 @@
           },
           {
             visible: 0,
+            id: "2-team",
+            type: " 2",
+            code: "glitch-worldwide-2",
+            at: p.glitch("idiot-7")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
             id: " event",
             type: " EVENT",
             code: "glitch-worldwide-K",
