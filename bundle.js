@@ -4617,7 +4617,8 @@
             frankfurt: ["Europe", 2],
             sv: ["US West", -7],
             la: ["US West", -7],
-            germany: ["Europe", 2],
+            la: ["US West", -7],
+            world: ["Worldwide", null],
             london: ["Europe", 1],
             singapore: ["Asia", 8]
           },
@@ -4635,7 +4636,8 @@
             ],
             [
               { id: "d", to: "4DOM" },
-              { id: "m", to: "Mothership", remove: "2" },
+              { id: "C", to: "2team-domination" },
+              { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
           ]
@@ -4664,15 +4666,23 @@
             visible: 0,
             id: " domination",
             type: " domination",
-            code: "glitch-virginia-f",
+            code: "glitch-world-C",
             at: p.glitch("idiot-2")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: " mother",
+            type: " Mothership",
+            code: "glitch-world-m",
+            at: p.glitch("nah--")
             // featured: 1, // For Featured Status.
           },
           {
             visible: 0,
             id: " defend the mega-base",
             type: " domination",
-            code: "glitch-virginia-f",
+            code: "glitch-virginia-d",
             at: p.glitch("idiot-5")
             // featured: 1, // For Featured Status.
           },
