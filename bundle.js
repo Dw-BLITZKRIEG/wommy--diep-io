@@ -762,7 +762,7 @@
               g.globalAlpha = d;
             }
           } //name color
-          if (somethinglolcuzimlazy == "") {
+          if (somethinglolcuzimlazy == "IMTHEBESTATTESTBED") {
             c.nameplate &&
               c.id !== A.playerid &&
               (null == c.render.textobjs && (c.render.textobjs = [m(), m()]),
@@ -3620,7 +3620,7 @@
                   !0
                 );
                 g.lineWidth = 4; /*
-                                if (//name color) {
+                                if (//name_color) {
                                 N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
                                 } else {*/
                 N.draw(
