@@ -4637,6 +4637,7 @@
             [
               { id: "d", to: "4DOM" },
               { id: "C", to: "2team-domination" },
+              { id: "K", to: "Developer/testbed server" },
               { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
@@ -4668,6 +4669,14 @@
             type: " domination",
             code: "glitch-world-C",
             at: p.glitch("idiot-2")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: " event",
+            type: " EVENT",
+            code: "glitch-world-K",
+            at: p.glitch("dev-event-12sub")
             // featured: 1, // For Featured Status.
           },
           {
