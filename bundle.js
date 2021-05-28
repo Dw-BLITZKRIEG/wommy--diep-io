@@ -2324,7 +2324,7 @@
                 ia &&
                   (clearInterval(qa),
                   Y.push({
-                    text: "Thank you for playing arras-mayhem!",
+                    text: "Thank you for playing WOMMY-",
                     status: 2,
                     alpha: 0,
                     time: Date.now()
@@ -4662,10 +4662,10 @@
           },
           {
             visible: 0,
-            id: "Glitch-Developer",
-            type: "dev",
+            id: " domination",
+            type: " domination",
             code: "glitch-virginia-f",
-            at: p.glitch("arrasio5")
+            at: p.glitch("idiot-2")
             // featured: 1, // For Featured Status.
           },
           {
