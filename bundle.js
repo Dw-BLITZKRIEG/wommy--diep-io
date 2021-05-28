@@ -4674,7 +4674,7 @@
             visible: 0,
             id: " mother",
             type: " Mothership",
-            code: "glitch-world-m",
+            code: "glitch-world-M",
             at: p.glitch("nah--")
             // featured: 1, // For Featured Status.
           },
