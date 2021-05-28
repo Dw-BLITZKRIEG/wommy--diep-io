@@ -3731,7 +3731,7 @@
                   (m -= 40));
                 if (B.graphical.screenshotMode)
                   W[6].draw(
-                    "Arras.io",
+                    "Wommy-diep.io",
                     h + 200,
                     m - 2,
                     15,
@@ -3741,7 +3741,7 @@
                 else {
                   if (b.showDebug) {
                     W[6].draw(
-                      "Arras.io",
+                      "Wommy-diep.io",
                       h + 200,
                       m - 84 - 2,
                       15,
@@ -3778,7 +3778,7 @@
                     );
                   } else
                     W[6].draw(
-                      "Arras.io",
+                      "Wommy-diep.io",
                       h + 200,
                       m - 42 - 2,
                       15,
@@ -4293,10 +4293,10 @@
               "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.",
               "Want access to TESTBED? Join the Discord Server!",
               "Have you tried Diep.io yet?",
-              "All tanks have up to 10x reload!"
+              "Have you tried Arras Mayhem yet?",
             ],
             [
-              "Avoid upgrading the reload stat if you wish for a smooth game!",
+              "u can contact me over discord: DW BLITZKRIEG#9878",
               "Have Fun!",
               "Good Luck!"
             ]
@@ -4669,7 +4669,15 @@
             // featured: 1, // For Featured Status.
           },
           {
-            visible: 1,
+            visible: 0,
+            id: " defend the mega-base",
+            type: " domination",
+            code: "glitch-virginia-f",
+            at: p.glitch("idiot-5")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
             id: "Glitch-Domination",
             type: "dominaton",
             code: "glitch-virginia-d",
