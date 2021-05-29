@@ -1,6 +1,6 @@
 # Arras Mayhem
 The offical client for the arras-mayhem server.
-![Purple Arras.io logo](https://cdn.glitch.com/fca666a2-8235-47b6-a711-c9926dc2248f%2FLogo.png?v=1595837913869) 
+![purple Arras.io logo](https://cdn.glitch.com/fca666a2-8235-47b6-a711-c9926dc2248f%2FLogo.png?v=1595837913869) 
 # Features
 - Sound effects!
 - Music!
