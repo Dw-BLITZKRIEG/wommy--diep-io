@@ -1,7 +1,8 @@
 # Update and change look
 
 # 30.05.2021
-- added posion basic
+- added posion basic upgrades from basic
+- added poisen twin upgrades from poison basic
 - added emkd-4 and emkd-5
 - added flamer upgrades from machine gun!
 - note this update is only avable for 2tdm doination the others may updatet later!
