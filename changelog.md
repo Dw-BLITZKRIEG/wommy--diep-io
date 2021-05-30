@@ -2,6 +2,7 @@
 
 # 30.05.2021
 - added posion basic upgrades from basic
+- added grower upgrades from basic
 - added poisen twin upgrades from poison basic
 - added emkd-4 and emkd-5
 - added flamer upgrades from machine gun!
