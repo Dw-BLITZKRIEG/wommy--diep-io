@@ -4680,6 +4680,14 @@
           },
           {
             visible: 0,
+            id: " maze",
+            type: " m",
+            code: "glitch-frankfurt-m",
+            at: p.glitch("stormy-spangled-quit")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
             id: " event",
             type: " EVENT",
             code: "glitch-worldwide-K",
