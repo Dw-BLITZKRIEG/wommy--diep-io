@@ -4636,6 +4636,7 @@
             [
               { id: "d", to: "4DOM" },
               { id: "C", to: "2team-domination" },
+              { id: "A", to: "defend the mega Base" },
               { id: "K", to: "Developer/testbed server" },
               { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
@@ -4706,7 +4707,7 @@
             visible: 0,
             id: " defend the mega-base",
             type: " domination",
-            code: "glitch-virginia-d",
+            code: "glitch-virginia-A",
             at: p.glitch("idiot-5")
             // featured: 1, // For Featured Status.
           },

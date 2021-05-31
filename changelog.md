@@ -1,5 +1,9 @@
 # Update and change look
 
+# 31.05.2021
+- added egg sacurty to defend the mega base
+- nerfend the boss spawn timer!
+
 # 30.05.2021
 - added posion basic upgrades from basic
 - added grower upgrades from basic
