@@ -1,5 +1,9 @@
 # Update and change look
 
+# 01.06.2021
+- fixed mothership from 2team-domination
+- added mothership to misc now!
+
 # 31.05.2021
 - added egg sacurty to defend the mega base
 - nerfend the boss spawn timer!
