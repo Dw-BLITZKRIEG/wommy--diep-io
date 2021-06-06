@@ -1,5 +1,9 @@
 # Update and change look
 
+# 06.06.2021
+- added new Senior tester token
+- may adding sentrys!
+
 # 01.06.2021
 - fixed mothership from 2team-domination
 - added mothership to misc now!
