@@ -4647,24 +4647,6 @@
         servers: [
           {
             visible: 0,
-            id: "Heroku-Beta",
-            type: "beta",
-            code: "heroku-frankfurt-4",
-            at: p.heroku("arrasdotio"),
-            prefer: !0,
-            featured: 1 // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Heroku-FFA",
-            type: "ffa",
-            code: "heroku-frankfurt-f",
-            at: p.heroku("arras-moe"),
-            prefer: !0,
-            featured: 1 // For Featured Status.
-          },
-          {
-            visible: 0,
             id: " domination",
             type: " domination",
             code: "glitch-worldwide-C",
@@ -4675,7 +4657,7 @@
             visible: 0,
             id: "2-team",
             type: " 2",
-            code: "glitch-worldwide-2",
+            code: "glitch-la-2",
             at: p.glitch("idiot-7")
             // featured: 1, // For Featured Status.
           },
@@ -4691,7 +4673,7 @@
             visible: 0,
             id: " event",
             type: " EVENT",
-            code: "glitch-worldwide-K",
+            code: "glitch-sv-K",
             at: p.glitch("dev-event-12sub")
             // featured: 1, // For Featured Status.
           },
@@ -4708,33 +4690,9 @@
             id: " defend the mega-base",
             type: " domination",
             code: "glitch-virginia-A",
-            at: p.glitch("idiot-5")
+            at: p.glitch("idiot-53")
             // featured: 1, // For Featured Status.
           },
-          {
-            visible: 0,
-            id: "Glitch-Domination",
-            type: "dominaton",
-            code: "glitch-virginia-d",
-            at: p.glitch("arras-mayhem-webserver")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Heroku-Main",
-            type: "main",
-            code: "heroku-virginia-4",
-            at: p.heroku("arras-mayhem")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "Repl.it-Legacy",
-            type: "legacy",
-            code: "replit-virginia-2",
-            at: p.replit("arras-mayhem-legacy.seaguli")
-            // featured: 1, // For Featured Status.
-          }
         ]
           .map((a, e) => ({ data: a, i: e }))
           .sort((a, e) =>
