@@ -1,7 +1,7 @@
 # Update and change look
 
 # 07.06.2021
-- updated defedn the mega base!
+- updated defend the mega base!
 
 # 06.06.2021
 - added new Senior tester token
