@@ -1,5 +1,8 @@
 # Update and change look
 
+# 07.06.2021 V2
+- added new gamemode: FFA!
+
 # 07.06.2021
 - updated defend the mega base!
 
