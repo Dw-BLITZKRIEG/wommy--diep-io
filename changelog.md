@@ -2,6 +2,7 @@
 
 # 08.06.2021  V2
 - fixed flame closer!
+- removed poison basic from defend the mega base! due a glitch it kills the defender and the base itself! :( very sad times!
 
 # 08.06.2021 
 - added new gamemode: siege!
