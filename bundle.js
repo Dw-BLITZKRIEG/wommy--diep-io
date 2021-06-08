@@ -762,7 +762,7 @@
               g.globalAlpha = d;
             }
           } //name color
-          if (somethinglolcuzimlazy == "SECRET") {
+          if (somethinglolcuzimlazy == "IMTHEBESTATTESTBED") {
             c.nameplate &&
               c.id !== A.playerid &&
               (null == c.render.textobjs && (c.render.textobjs = [m(), m()]),
