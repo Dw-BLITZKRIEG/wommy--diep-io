@@ -304,12 +304,14 @@
           case "dom1":
           case "dbc1":
           case "mbc1":
+          case "bad1":
             return l.blue;
           case "bas2":
           case "bap2":
           case "dom2":
           case "dbc2":
           case "mbc2":
+          case "bad2":
             return l.green;
           case "bas3":
           case "bap3":
@@ -762,7 +764,7 @@
               g.globalAlpha = d;
             }
           } //name color
-          if (somethinglolcuzimlazy == "IMTHEBESTATTESTBED") {
+          if (somethinglolcuzimlazy == "[DEV]") {
             c.nameplate &&
               c.id !== A.playerid &&
               (null == c.render.textobjs && (c.render.textobjs = [m(), m()]),
@@ -3640,7 +3642,16 @@
                     150 > Date.now() % 300 ? l.lgrey : l.lgrey,
                     "center"
                   );
-                if (z.name.includes("Dev⠀"))
+                if (z.name.includes("[DEV]"))
+                  N.draw(
+                    z.name,
+                    Math.round(c + 165) + 0.5,
+                    Math.round(d - 10 - 4) + 0.5,
+                    32,
+                    150 > Date.now() % 300 ? l.yellow : l.yellow,
+                    "center"
+                  );
+                if (z.name.includes("DEV"))
                   N.draw(
                     z.name,
                     Math.round(c + 165) + 0.5,
@@ -3870,7 +3881,7 @@
                       "center",
                       !0
                     );
-                  if (b.label.includes("Dev⠀"))
+                  if (b.label.includes("[DEV]"))
                     ca[a].draw(
                       b.label + ": " + H.handleLargeNumber(Math.round(b.score)),
                       c + 100,

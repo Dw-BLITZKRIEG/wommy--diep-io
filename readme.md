@@ -1,4 +1,8 @@
 # Arras Mayhem
+
+before u do smothing take a look at: remix license!
+
+
 The offical client for the arras-mayhem server.
 ![purple Arras.io logo](https://cdn.glitch.com/fca666a2-8235-47b6-a711-c9926dc2248f%2FLogo.png?v=1595837913869) 
 # Features
