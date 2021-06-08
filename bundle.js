@@ -4636,6 +4636,7 @@
             [
               { id: "d", to: "4DOM" },
               { id: "C", to: "2team-domination" },
+              { id: "s", to: "siege" },
               { id: "A", to: "defend the mega Base" },
               { id: "K", to: "Developer/testbed server" },
               { id: "M", to: "Mothership", remove: "2" },
@@ -4651,6 +4652,14 @@
             type: " domination",
             code: "glitch-worldwide-C",
             at: p.glitch("idiot-2")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: " siege",
+            type: " siege",
+            code: "glitch-singapore-s",
+            at: p.glitch("idiot-9")
             // featured: 1, // For Featured Status.
           },
           {

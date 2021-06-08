@@ -1,5 +1,9 @@
 # Update and change look
 
+# 08.06.2021 
+- added new gamemode: siege!
+- note if the servers are overloaded or didn´t was use in some time it takes longer to Connect!
+
 # 07.06.2021 V2
 - added new gamemode: FFA!
 
