@@ -304,7 +304,7 @@
           case "dom1":
           case "dbc1":
           case "mbc1":
-          case "bad1":
+          case "bag1":
             return l.blue;
           case "bas2":
           case "bap2":
