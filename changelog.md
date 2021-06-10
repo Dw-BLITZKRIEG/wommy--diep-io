@@ -1,6 +1,9 @@
 # Update and change look
 
-# 08.06.2021 
+# 10.05.2021
+- updated mother ship!
+
+# 09.06.2021 
 - added new f-22 raptor to misc
 - added new wierd random tank [comination of: spreadshot, pentashot, octo-tank and fighter] also a fan idea!
 
