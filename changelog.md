@@ -1,5 +1,9 @@
 # Update and change look
 
+# 10.06.2021 V2
+- added new gamemode: script-mode
+- bug fixed , may adding 4tdm!
+
 # 10.05.2021
 - updated mother ship!
 
