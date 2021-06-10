@@ -4702,7 +4702,7 @@
             id: " mother",
             type: " Mothership",
             code: "glitch-worldwide-M",
-            at: p.glitch("nah--")
+            at: p.glitch("nah--2")
             // featured: 1, // For Featured Status.
           },
           {
