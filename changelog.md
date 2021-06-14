@@ -1,5 +1,9 @@
 # Update and change look
 
+# 14.06.2021 
+- updated siege-mode
+- added new BK-X and ACK-X  
+
 # 10.06.2021 V2
 - added new gamemode: script-mode
 - bug fixed , may adding 4tdm!
