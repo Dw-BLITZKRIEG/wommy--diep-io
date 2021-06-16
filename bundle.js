@@ -4672,7 +4672,7 @@
             id: " domination",
             type: " domination",
             code: "glitch-worldwide-4C",
-            at: p.glitch("dominator-st")
+            at: p.glitch("help-meh-iwant-doms")
             // featured: 1, // For Featured Status.
           },
           {
