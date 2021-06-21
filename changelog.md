@@ -1,5 +1,9 @@
 # Update and change look
 
+# 21.06.2021
+- added new game mode: Zombie-defense, it´s current in beta!
+- soon fxing siege and maze walls!
+
 # 15.06.2021 
 - add new boss-rush  mode!
 - Arena Closer now rotate [thanks to tesla and crazy-attacker9 for helping me with the rotation!]
