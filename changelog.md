@@ -1,6 +1,12 @@
 # Update and change look
 
 # 21.06.2021
+- fixed siege walls!
+- buffed siege doms
+- fixed zombie defence
+- now theres less lag in siege! ;D
+
+# 21.06.2021
 - added new game mode: Zombie-defense, it´s current in beta!
 - soon fxing siege and maze walls!
 

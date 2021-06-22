@@ -4675,9 +4675,9 @@
           },
           {
             visible: 0,
-            id: "domination",
-            type: " domination",
-            code: "glitch-worldwide-C",
+            id: "Zombie-defence",
+            type: "Zombie defence",
+            code: "glitch-worldwide-Z",
             at: p.glitch("idiot-152")
             // featured: 1, // For Featured Status.
           },
