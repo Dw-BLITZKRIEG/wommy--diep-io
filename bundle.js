@@ -329,6 +329,11 @@
           case "dom0":
           case "dbc0":
           case "mbc0":
+          case "domC":
+          case "doNE": 
+          case "doSE": 
+          case "doSW": 
+          case "doNW":   
             return l.yellow;
           case "port":
             return (g.globalAlpha = 1), l.black;
@@ -4653,6 +4658,7 @@
               { id: "K", to: "Developer/testbed server" },
               { id: "M", to: "Mothership", remove: "2" },
               { id: "b", to: "Bossrush", remove: "2" },
+              { id: "Z", to: "Zombie-defense", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
           ]
@@ -4671,8 +4677,8 @@
             visible: 0,
             id: " domination",
             type: " domination",
-            code: "glitch-worldwide-4C",
-            at: p.glitch("dominator-st")
+            code: "glitch-frankfurt-Z",
+            at: p.glitch("idiot-152")
             // featured: 1, // For Featured Status.
           },
           {
