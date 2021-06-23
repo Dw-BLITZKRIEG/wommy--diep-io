@@ -4658,7 +4658,6 @@
               { id: "K", to: "Developer/testbed server" },
               { id: "M", to: "Mothership", remove: "2" },
               { id: "b", to: "Bossrush", remove: "2" },
-              { id: "Z", to: "Zombie-defense", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
           ]
@@ -4671,14 +4670,6 @@
             type: " domination",
             code: "glitch-worldwide-C",
             at: p.glitch("idiot-2")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: " domination",
-            type: " domination",
-            code: "glitch-frankfurt-Z",
-            at: p.glitch("idiot-152")
             // featured: 1, // For Featured Status.
           },
           {
