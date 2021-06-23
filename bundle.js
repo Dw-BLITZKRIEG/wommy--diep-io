@@ -4652,7 +4652,6 @@
               { id: "S", to: "script-mode" },
               { id: "K", to: "Developer/testbed server" },
               { id: "M", to: "Mothership", remove: "2" },
-              { id: "b", to: "Bossrush", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
           ]
@@ -4669,14 +4668,6 @@
           },
           {
             visible: 0,
-            id: " domination",
-            type: " domination",
-            code: "glitch-worldwide-4C",
-            at: p.glitch("dominator-st")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
             id: "script",
             type: " script",
             code: "glitch-frankfurt-S",
@@ -4689,14 +4680,6 @@
             type: " siege",
             code: "glitch-singapore-s",
             at: p.glitch("idiot-9")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: " boss-rush",
-            type: "boss-rush",
-            code: "glitch-singapore-b",
-            at: p.glitch("idiot-13")
             // featured: 1, // For Featured Status.
           },
           {

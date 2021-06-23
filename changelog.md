@@ -1,9 +1,5 @@
 # Update and change look
 
-# 15.06.2021 
-- add new boss-rush  mode!
-- Arena Closer now rotate [thanks to tesla and crazy-attacker9 for helping me with the rotation!]
-
 # 14.06.2021 
 - updated siege-mode
 - added new BK-X and ACK-X  
