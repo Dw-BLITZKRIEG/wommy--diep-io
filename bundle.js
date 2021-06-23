@@ -4675,14 +4675,6 @@
           },
           {
             visible: 0,
-            id: "Zombie-defence",
-            type: "Zombie defence",
-            code: "glitch-worldwide-Z",
-            at: p.glitch("idiot-152")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
             id: "script",
             type: " script",
             code: "glitch-frankfurt-S",
