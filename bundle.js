@@ -329,11 +329,6 @@
           case "dom0":
           case "dbc0":
           case "mbc0":
-          case "domC":
-          case "doNE": 
-          case "doSE": 
-          case "doSW": 
-          case "doNW":   
             return l.yellow;
           case "port":
             return (g.globalAlpha = 1), l.black;
