@@ -329,11 +329,6 @@
           case "dom0":
           case "dbc0":
           case "mbc0":
-          case "domC":
-          case "doNE": 
-          case "doSE": 
-          case "doSW": 
-          case "doNW":   
             return l.yellow;
           case "port":
             return (g.globalAlpha = 1), l.black;
@@ -4670,6 +4665,14 @@
             type: " domination",
             code: "glitch-worldwide-C",
             at: p.glitch("idiot-2")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: " domination",
+            type: " domination",
+            code: "glitch-worldwide-4C",
+            at: p.glitch("dominator-st")
             // featured: 1, // For Featured Status.
           },
           {
