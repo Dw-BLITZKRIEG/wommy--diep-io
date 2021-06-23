@@ -1,5 +1,9 @@
 # Update and change look
 
+# 23.06.2021
+- there´s a new BUG now if u press play, or select a server it crash´s!
+- fixed siege walls, and buffed siege dom, Also reworked siege map!
+
 # 21.06.2021
 - added new game mode: Zombie-defense, it´s current in beta!
 - soon fxing siege and maze walls!
