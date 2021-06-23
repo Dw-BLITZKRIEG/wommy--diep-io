@@ -4675,9 +4675,9 @@
           },
           {
             visible: 0,
-            id: "domination",
+            id: " domination",
             type: " domination",
-            code: "glitch-worldwide-C",
+            code: "glitch-frankfurt-Z",
             at: p.glitch("idiot-152")
             // featured: 1, // For Featured Status.
           },
