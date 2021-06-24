@@ -4693,6 +4693,14 @@
             //featured: 1 // For Featured Status.
           },
           {
+            visible: 0,
+            id: "2tdm",
+            type: "2tdm",
+            code: "glitch-frankfurt-2",
+            at: p.glitch("idiot-7"),
+            //featured: 1 // For Featured Status.
+          },
+          {
             visible: 1,
             id: "Glitch-Domination",
             type: "dominaton",
