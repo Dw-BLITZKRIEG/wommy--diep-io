@@ -4667,6 +4667,7 @@
               { id: "x", to: "Event" },
               { id: "S", to: "Siege" },
               { id: "Z", to: "Zombie defense" },
+              { id: "SC", to: "Script Mode" },
               { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
@@ -4701,19 +4702,28 @@
           },
           {
             visible: 0,
-            id: "Repl.it-Legacy",
-            type: "legacy",
-            code: "replit-virginia-2",
-            at: p.replit("arras-mayhem-legacy.seaguli")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
             id: "siege",
             type: "siege",
             code: "glitch-singapore-S",
             at: p.glitch("idiot-9")
             // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "ffa",
+            type: "ffa",
+            code: "glitch-singapore-f",
+            at: p.glitch("idiot-8")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "script-mode",
+            type: "script-mode",
+            code: "glitch-singapore-SC",
+            at: p.glitch("idiot-12"),
+            prefer: !0,
+             featured: 1, // For Featured Status.
           },
           {
             visible: 0,
