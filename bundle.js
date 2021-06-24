@@ -2349,14 +2349,14 @@
                 ia &&
                   (clearInterval(qa),
                   Y.push({
-                    text: "Thank you for playing arras-mayhem!",
+                    text: "Thank you for playing Wommy-diep.io!",
                     status: 2,
                     alpha: 0,
                     time: Date.now()
                   }),
                   (qa = setInterval(() => {
                     Y.push({
-                      text: "Thank you for playing arras-mayhem!",
+                      text: "Thank you for playing Wommy-diep.io!",
                       status: 2,
                       alpha: 0,
                       time: Date.now()

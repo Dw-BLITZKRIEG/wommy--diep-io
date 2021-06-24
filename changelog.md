@@ -1,6 +1,10 @@
 # Update and change look
 
 # 24.06.2021
+-  added grower to 2tdm
+- note posion basic and posion twin  won´t be added due the glitch wich kills the bases
+
+# 24.06.2021
 -  Fixed the Bug!, May adding really soon´ 4tdm
 
 # 23.06.2021
