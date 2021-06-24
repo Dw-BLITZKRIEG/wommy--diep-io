@@ -4665,7 +4665,9 @@
               { id: "d", to: "4DOM" },
               { id: "A", to: "defend the mega base" },
               { id: "x", to: "Event" },
-              { id: "m", to: "Mothership", remove: "2" },
+              { id: "S", to: "Siege" },
+              { id: "Z", to: "Zombie defense" },
+              { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
           ]
@@ -4685,10 +4687,9 @@
             visible: 0,
             id: "defend the mega base",
             type: "defend the mega base",
-            code: "heroku-frankfurt-A",
+            code: "glitch-frankfurt-A",
             at: p.glitch("idiot-53"),
-            prefer: !0,
-            featured: 1 // For Featured Status.
+            //featured: 1 // For Featured Status.
           },
           {
             visible: 1,
@@ -4700,18 +4701,26 @@
           },
           {
             visible: 0,
-            id: "Heroku-Event",
-            type: "main",
-            code: "heroku-virginia-x",
-            at: p.heroku("arras-mayhem")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
             id: "Repl.it-Legacy",
             type: "legacy",
             code: "replit-virginia-2",
             at: p.replit("arras-mayhem-legacy.seaguli")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "siege",
+            type: "siege",
+            code: "glitch-singapore-S",
+            at: p.glitch("idiot-9")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "Mothership",
+            type: "Mothership",
+            code: "glitch-virginia-M",
+            at: p.glitch("nah--2")
             // featured: 1, // For Featured Status.
           }
         ]
