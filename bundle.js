@@ -4667,7 +4667,7 @@
               { id: "x", to: "Event" },
               { id: "S", to: "Siege" },
               { id: "Z", to: "Zombie defense" },
-              { id: "SC", to: "Script Mode" },
+              { id: "L", to: "Script Mode" },
               { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
@@ -4720,10 +4720,9 @@
             visible: 0,
             id: "script-mode",
             type: "script-mode",
-            code: "glitch-singapore-SC",
+            code: "glitch-worldwide-L",
             at: p.glitch("idiot-12"),
-            prefer: !0,
-             featured: 1, // For Featured Status.
+             //featured: 1, // For Featured Status.
           },
           {
             visible: 0,

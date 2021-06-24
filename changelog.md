@@ -1,5 +1,8 @@
 # Update and change look
 
+# 24.06.2021
+-  Fixed the Bug!, May adding really soon´ 4tdm
+
 # 23.06.2021
 - there´s a new BUG now if u press play, or select a server it crash´s!
 - fixed siege walls, and buffed siege dom, Also reworked siege map!
