@@ -17,6 +17,25 @@
       );
     return r + "";
   };
+                var smallaudio5 = new Audio();
+      smallaudio5.src =
+        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/poka.wav";
+      function PlaySound214() {
+        smallaudio5.play();
+      }
+      var smallaudio6 = new Audio();
+      smallaudio6.src =
+        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/finish.wav";
+      function PlaySound215() {
+        smallaudio6.play();
+      }
+                        var smallaudio4 = new Audio();
+      smallaudio4.src =
+        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/camera.wav";
+      function PlaySound213() {
+        smallaudio4.play();
+      }
+
   I.ASSUME_ES5 = !1;
   I.ASSUME_NO_NATIVE_MAP = !1;
   I.ASSUME_NO_NATIVE_SET = !1;
@@ -304,14 +323,12 @@
           case "dom1":
           case "dbc1":
           case "mbc1":
-          case "bag1":
             return l.blue;
           case "bas2":
           case "bap2":
           case "dom2":
           case "dbc2":
           case "mbc2":
-          case "bad2":
             return l.green;
           case "bas3":
           case "bap3":
@@ -329,11 +346,6 @@
           case "dom0":
           case "dbc0":
           case "mbc0":
-          case "domC":
-          case "doNE": 
-          case "doSE": 
-          case "doSW": 
-          case "doNW":   
             return l.yellow;
           case "port":
             return (g.globalAlpha = 1), l.black;
@@ -594,7 +606,13 @@
       function PlaySound211() {
         smallaudio2.play();
       }
+     var smallaudio3 = new Audio("https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/socket.wav");
 
+      smallaudio3.loop = false;
+      function PlaySound212() {
+          smallaudio3.loop = false;
+        smallaudio3.play();
+      }
       function t() {
         if (!ua) {
           ua = !0;
@@ -769,7 +787,7 @@
               g.globalAlpha = d;
             }
           } //name color
-          if (somethinglolcuzimlazy == "[DEV]") {
+          if (somethinglolcuzimlazy == "") {
             c.nameplate &&
               c.id !== A.playerid &&
               (null == c.render.textobjs && (c.render.textobjs = [m(), m()]),
@@ -1852,12 +1870,12 @@
         };
       }
       document.getElementById("startButton").onclick = () => {
-        PlaySound210();
         var inputVal = document.getElementById("playerNameInput").value;
         if (inputVal === "")
           return (
             PlaySound211(), setTimeout(alert("Please enter a name!"), 30000)
           );
+             PlaySound210();
         t();
       };
       let La = WebSocket.prototype.close;
@@ -2331,7 +2349,7 @@
                 ia &&
                   (clearInterval(qa),
                   Y.push({
-                    text: "Thank you for playing Wommy-arras.io!",
+                    text: "Thank you for playing arras-mayhem!",
                     status: 2,
                     alpha: 0,
                     time: Date.now()
@@ -2443,7 +2461,7 @@
                 b.finalKillers = [];
                 for (d = 0; d < c[5]; d++) b.finalKillers.push(c[6 + d]);
                 b.died = !0;
-                b.respawnOn = Date.now() + (ia ? 5e3 : 3e3);
+                b.respawnOn = Date.now() + (ia ? 3e3 : 2e3);
 
               case "K":
                 b.isInGame = !1;
@@ -2462,6 +2480,7 @@
               b.died ||
                 b.message ||
                 (b.message = "Socket closed. Refresh to continue playing!"));
+            PlaySound212()
             console.warn("WebSocket closed: ", a);
           };
           g.onerror = function(a) {
@@ -3627,7 +3646,7 @@
                   !0
                 );
                 g.lineWidth = 4; /*
-                                if (//name_color) {
+                                if (//name color) {
                                 N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
                                 } else {*/
                 N.draw(
@@ -3647,16 +3666,7 @@
                     150 > Date.now() % 300 ? l.lgrey : l.lgrey,
                     "center"
                   );
-                if (z.name.includes("[DEV]"))
-                  N.draw(
-                    z.name,
-                    Math.round(c + 165) + 0.5,
-                    Math.round(d - 10 - 4) + 0.5,
-                    32,
-                    150 > Date.now() % 300 ? l.yellow : l.yellow,
-                    "center"
-                  );
-                if (z.name.includes("DEV"))
+                if (z.name.includes("Dev⠀"))
                   N.draw(
                     z.name,
                     Math.round(c + 165) + 0.5,
@@ -3747,7 +3757,7 @@
                   (m -= 40));
                 if (B.graphical.screenshotMode)
                   W[6].draw(
-                    "Wommy-diep.io",
+                    "Arras.io",
                     h + 200,
                     m - 2,
                     15,
@@ -3757,7 +3767,7 @@
                 else {
                   if (b.showDebug) {
                     W[6].draw(
-                      "Wommy-diep.io",
+                      "Arras.io",
                       h + 200,
                       m - 84 - 2,
                       15,
@@ -3794,7 +3804,7 @@
                     );
                   } else
                     W[6].draw(
-                      "Wommy-diep.io",
+                      "Arras.io",
                       h + 200,
                       m - 42 - 2,
                       15,
@@ -3886,7 +3896,7 @@
                       "center",
                       !0
                     );
-                  if (b.label.includes("[DEV]"))
+                  if (b.label.includes("Dev⠀"))
                     ca[a].draw(
                       b.label + ": " + H.handleLargeNumber(Math.round(b.score)),
                       c + 100,
@@ -4301,7 +4311,7 @@
           m();
           var c = [
             [
-              "Be mindful of others! Refrain from using laggy tanks or god mode while others are present!",
+              "Be mindful of others! Refrain from using laggy tanks while others are present!",
               "Stuck on connecting? Refresh the page, or try another server."
             ],
             [
@@ -4309,10 +4319,12 @@
               "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.",
               "Want access to TESTBED? Join the Discord Server!",
               "Have you tried Diep.io yet?",
-              "Have you tried Arras Mayhem yet?",
+              "All tanks have up to 10x reload!",
+              'If you have a valid token, use the name "Tester" to spawn as Testbed!',
+              "Press 'N' to level up."
             ],
             [
-              "u can contact me over discord: DW BLITZKRIEG#9878",
+              "Avoid upgrading the reload stat if you wish for a smooth game!",
               "Have Fun!",
               "Good Luck!"
             ]
@@ -4592,7 +4604,7 @@
         KEY_FUCK_YOU: 192,
         KEY_CHUNGUS: 188,
          KEY_BABY: 190,
-        KEY_CHAT: 220,
+        KEY_CHAT: 191,
         KEY_GOD: 80,
         KEY_KILL_YOURSELF: 79,
         screenWidth: window.innerWidth,
@@ -4633,7 +4645,7 @@
             frankfurt: ["Europe", 2],
             sv: ["US West", -7],
             la: ["US West", -7],
-            la: ["US West", -7],
+            germany: ["Europe", 2],
             london: ["Europe", 1],
             singapore: ["Asia", 8]
           },
@@ -4651,14 +4663,9 @@
             ],
             [
               { id: "d", to: "4DOM" },
-              { id: "C", to: "2team-domination" },
-              { id: "s", to: "siege" },
-              { id: "A", to: "defend the mega Base" },
-              { id: "S", to: "script-mode" },
-              { id: "K", to: "Developer/testbed server" },
-              { id: "M", to: "Mothership", remove: "2" },
-              { id: "b", to: "Bossrush", remove: "2" },
-              { id: "Z", to: "Zombie-defense", remove: "2" },
+              { id: "A", to: "defend the mega base" },
+              { id: "x", to: "Event" },
+              { id: "m", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
           ]
@@ -4667,92 +4674,46 @@
         servers: [
           {
             visible: 0,
-            id: " domination",
-            type: " domination",
-            code: "glitch-worldwide-C",
-            at: p.glitch("idiot-2")
-            // featured: 1, // For Featured Status.
+            id: "domination",
+            type: "domination",
+            code: "glitch-frankfurt-d",
+            at: p.glitch("idiot-2"),
+            prefer: !0,
+            featured: 1 // For Featured Status.
           },
           {
             visible: 0,
-            id: " domination",
-            type: " domination",
-            code: "glitch-frankfurt-Z",
+            id: "defend the mega base",
+            type: "defend the mega base",
+            code: "heroku-frankfurt-A",
+            at: p.glitch("idiot-53"),
+            prefer: !0,
+            featured: 1 // For Featured Status.
+          },
+          {
+            visible: 1,
+            id: "Glitch-Domination",
+            type: "dominaton",
+            code: "glitch-singapore-Z",
             at: p.glitch("idiot-152")
             // featured: 1, // For Featured Status.
           },
           {
             visible: 0,
-            id: "script",
-            type: " script",
-            code: "glitch-frankfurt-S",
-            at: p.glitch("idiot-12")
+            id: "Heroku-Event",
+            type: "main",
+            code: "heroku-virginia-x",
+            at: p.heroku("arras-mayhem")
             // featured: 1, // For Featured Status.
           },
           {
             visible: 0,
-            id: " siege",
-            type: " siege",
-            code: "glitch-singapore-s",
-            at: p.glitch("idiot-9")
+            id: "Repl.it-Legacy",
+            type: "legacy",
+            code: "replit-virginia-2",
+            at: p.replit("arras-mayhem-legacy.seaguli")
             // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: " boss-rush",
-            type: "boss-rush",
-            code: "glitch-singapore-b",
-            at: p.glitch("idiot-13")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "2-team",
-            type: " 2",
-            code: "glitch-la-2",
-            at: p.glitch("idiot-7")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: " maze",
-            type: " m",
-            code: "glitch-frankfurt-m",
-            at: p.glitch("stormy-spangled-quit")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: " event",
-            type: " EVENT",
-            code: "glitch-sv-K",
-            at: p.glitch("dev-event-12sub")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: " mother",
-            type: " Mothership",
-            code: "glitch-worldwide-M",
-            at: p.glitch("nah--2")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: " defend the mega-base",
-            type: " domination",
-            code: "glitch-virginia-A",
-            at: p.glitch("idiot-53")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: " ffa",
-            type: " f",
-            code: "glitch-virginia-f",
-            at: p.glitch("idiot-8")
-            // featured: 1, // For Featured Status.
-          },
+          }
         ]
           .map((a, e) => ({ data: a, i: e }))
           .sort((a, e) =>
@@ -5323,7 +5284,7 @@
               this.emit("L");
               break;
             case a.KEY_CHAT:
-            case 72:
+            case 191:
               if (!a.died) {
                 if (a.isChatMode === false) {
                   // Chat input textbox.
@@ -5333,7 +5294,7 @@
                   chatInput.style.font = "bold 18px Ubuntu";
                   chatInput.maxlength = "100";
                   chatInput.placeholder =
-                    "Press Enter to send. Press Esc to cancel.";
+                    "Press Enter to send. Press Esc to cancel. Type /help for a list of commands.";
 
                   // Chat input wrapper div.
                   let chatInputWrapper = document.createElement("div");
@@ -5496,6 +5457,7 @@
                     if (this.videoRecorder)
                       switch (this.videoRecorder.state) {
                         case "inactive":
+                          PlaySound214() 
                           a.messages.push({
                             text: "Recorder started!",
                             status: 2,
@@ -5505,6 +5467,7 @@
                           this.videoRecorder.start();
                           break;
                         case "recording":
+                          PlaySound215()
                           a.messages.push({
                             text: "Recorder stopped! Saving file...",
                             status: 2,
@@ -5536,6 +5499,7 @@
                         }, 100);
                         q.click();
                       };
+                      PlaySound214()
                       a.messages.push({
                         text: "Recorder initiated and started!",
                         status: 2,
@@ -5553,6 +5517,7 @@
                     });
                   break;
                 case a.KEY_SCREENSHOT:
+                  PlaySound213()
                   a.messages.push({
                     text: "Saving screenshot...",
                     status: 2,
@@ -6385,6 +6350,54 @@
           guiblack: "#000000",
           paletteSize: 10,
           border: 0.3
+        },
+                  bubblegum: {
+      teal: "#83ffd7",
+      lgreen: "#faa3ff",
+      orange: "#e7896d",
+      yellow: "#ff00e7",
+      lavender: "#5a00ff",
+      pink: "#ef99c3",
+      vlgrey: "#ffc0f5",
+      lgrey: "#aa9f9e",
+      guiwhite: "#00ff00",
+      black: "#484848",
+      blue: "#0000ff",
+      green: "#00ff00",
+      red: "#ff0000",
+      gold: "#ffd700",
+      purple: "#8d6adf",
+      magenta: "#ff00c0",
+      grey: "#a7a7af",
+      dgrey: "#b300ff",
+      white: "#ff81d9",
+      guiblack: "#000000",
+      paletteSize: 10,
+      border: 1
+        },
+              nightmare: {
+ teal: "#00ffae",
+      lgreen: "#8eff00",
+      orange: "#8a2000",
+      yellow: "#ffeb00",
+      lavender: "#2b007a",
+      pink: "#930048",
+      vlgrey: "#969696",
+      lgrey: "#2a2a2a",
+      guiwhite: "#aa0000",
+      black: "#ffffff",
+      blue: "#005372",
+      green: "#406a00",
+      red: "#840002",
+      gold: "#846400",
+      purple: "#270083",
+      magenta: "#b3015f",
+      grey: "#6f6f6f",
+      dgrey: "#ffffff",
+      white: "#000000",
+      guiblack: "#ffffff",
+      paletteSize: 10,
+      border: 1
         },
         candy: {
           teal: "#7ADBBC",
