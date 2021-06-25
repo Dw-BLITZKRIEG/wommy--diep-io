@@ -1,5 +1,8 @@
 # Update and change look
 
+# 25.06.2021
+-  added new gamemode: 4tdm
+
 # 24.06.2021
 -  added grower to 2tdm
 - note posion basic and posion twin  won´t be added due the glitch wich kills the bases
