@@ -1,5 +1,8 @@
 # Update and change look
 
+# 25.06.2021 V3
+-  Update Mothership, Now if a mothership dies, the Arena  Will Close!
+
 # 25.06.2021 V2
 -  added new gamemode: Arena Closer Survival
 
