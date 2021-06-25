@@ -4666,6 +4666,7 @@
               { id: "A", to: "defend the mega base" },
               { id: "x", to: "Event" },
               { id: "S", to: "Siege" },
+              { id: "Q", to: "Arena Closer Survival" },
               { id: "Z", to: "Zombie defense" },
               { id: "L", to: "Script Mode" },
               { id: "M", to: "Mothership", remove: "2" },
@@ -4722,6 +4723,14 @@
             type: "siege",
             code: "glitch-singapore-S",
             at: p.glitch("idiot-9")
+            // featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "Arena Closer Survival",
+            type: "Arena Closer Survival",
+            code: "glitch-singapore-Q",
+            at: p.glitch("idiot-17")
             // featured: 1, // For Featured Status.
           },
           {

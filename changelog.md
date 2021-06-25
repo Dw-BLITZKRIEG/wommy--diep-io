@@ -1,5 +1,8 @@
 # Update and change look
 
+# 25.06.2021 V2
+-  added new gamemode: Arena Closer Survival
+
 # 25.06.2021
 -  added new gamemode: 4tdm
 
