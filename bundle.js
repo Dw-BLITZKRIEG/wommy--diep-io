@@ -4715,7 +4715,7 @@
             id: "Glitch-Domination",
             type: "dominaton",
             code: "glitch-singapore-Z",
-            at: p.glitch("idiot-152")
+            at: p.glitch("idiot-153")
             // featured: 1, // For Featured Status.
           },
           {
