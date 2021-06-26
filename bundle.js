@@ -4662,7 +4662,7 @@
               { id: "4", to: "4 Team", end: "4TDM" }
             ],
             [
-              { id: "d", to: "4DOM" },
+              { id: "d", to: "Domination" },
               { id: "A", to: "defend the mega base" },
               { id: "x", to: "Event" },
               { id: "S", to: "Siege" },
@@ -4681,7 +4681,7 @@
             visible: 0,
             id: "domination",
             type: "domination",
-            code: "glitch-frankfurt-d",
+            code: "glitch-frankfurt-2d",
             at: p.glitch("idiot-2"),
             prefer: !0,
             featured: 1 // For Featured Status.
