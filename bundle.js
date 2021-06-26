@@ -4666,6 +4666,7 @@
               { id: "A", to: "defend the mega base" },
               { id: "x", to: "Event" },
               { id: "S", to: "Siege" },
+              { id: "s", to: "Sandbox" },
               { id: "Q", to: "Arena Closer Survival" },
               { id: "Z", to: "Zombie defense" },
               { id: "L", to: "Script Mode" },
@@ -4747,6 +4748,14 @@
             type: "script-mode",
             code: "glitch-worldwide-L",
             at: p.glitch("idiot-12"),
+             //featured: 1, // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "Sandbox",
+            type: "Sandbox",
+            code: "glitch-worldwide-s",
+            at: p.glitch("idiot-183"),
              //featured: 1, // For Featured Status.
           },
           {
