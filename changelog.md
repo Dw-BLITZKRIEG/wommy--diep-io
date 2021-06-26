@@ -1,5 +1,8 @@
 # Update and change look
 
+# 26.06.2021 
+-  Update 4dom, fixed the doms!
+
 # 25.06.2021 V3
 -  Update Mothership, Now if a mothership dies, the Arena  Will Close!
 
