@@ -1,5 +1,9 @@
 # Update and change look
 
+# 01.07.2021 
+- Servers are working agian!
+- Now if u upgrade to elite battelship you will be able to cntroll the turrets!
+
 # 26.06.2021 V3
 - Update Zombie defense!, still laggy!
 
