@@ -1,5 +1,9 @@
 # Update and change look
 
+# 01.07.2021 V2
+- Complety reworked the logo
+
+
 # 01.07.2021 
 - Servers are working agian!
 - Now if u upgrade to elite battelship you will be able to cntroll the turrets!
