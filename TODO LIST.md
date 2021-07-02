@@ -1,4 +1,4 @@
-smashy kills: 22
+smashy kills: 23
 
 add  maze back!
 
