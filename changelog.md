@@ -1,5 +1,11 @@
 # Update and change look
 
+# 02.07.2021 
+- Aka the Overlord update
+- added new boss branch: OVK-X
+- bots are now on the blue and red team in 2team domination
+
+
 # 01.07.2021 V2
 - Complety reworked the logo
 
