@@ -1,5 +1,8 @@
 # Update and change look
 
+# 02.07.2021 V2
+- added new Arena Closer:Triplet Closer
+
 # 02.07.2021 
 - Aka the Overlord update
 - added new boss branch: OVK-X
