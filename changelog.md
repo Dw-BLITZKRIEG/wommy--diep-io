@@ -1,5 +1,9 @@
 # Update and change look
 
+# 02.07.2021 V3
+- Aka the Overlord update V2
+- added new dominator: the drone dominator
+
 # 02.07.2021 V2
 - added new Arena Closer:Triplet Closer
 
