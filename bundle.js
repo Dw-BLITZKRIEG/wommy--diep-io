@@ -4745,14 +4745,6 @@
           },
           {
             visible: 0,
-            id: "Maze",
-            type: "maze",
-            code: "glitch-singapore-m",
-            at: p.glitch("idiot-19")
-            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
             id: "script-mode",
             type: "script-mode",
             code: "glitch-worldwide-L",
