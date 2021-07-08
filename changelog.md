@@ -1,5 +1,8 @@
 # Update and change look
 
+# 08.07.2021   V2
+- Updated 2team domination (reworked the map)
+
 # 08.07.2021 
 - Updated 4tdm (reworked the map)
 
