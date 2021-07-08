@@ -325,19 +325,16 @@
             return l.blue;
           case "bas2":
           case "bap2":
-          case "dom2":
           case "dbc2":
           case "mbc2":
             return l.green;
           case "bas3":
           case "bap3":
-          case "dom3":
           case "dbc3":
           case "mbc3":
             return l.red;
           case "bas4":
           case "bap4":
-          case "dom4":
           case "dbc4":
           case "mbc4":
             return l.pink;
@@ -346,6 +343,10 @@
           case "dbc0":
           case "mbc0":
           case "dom1":
+          case "dom2":
+          case "dom3":
+          case "dom4":
+          case "dom5":
             return l.yellow;
           case "port":
             return (g.globalAlpha = 1), l.black;
@@ -4682,7 +4683,7 @@
             id: "domination",
             type: "domination",
             code: "glitch-frankfurt-2d",
-            at: p.glitch("idiot-2"),
+            at: p.glitch("idiot-22"),
             prefer: !0,
             featured: 1 // For Featured Status.
           },
