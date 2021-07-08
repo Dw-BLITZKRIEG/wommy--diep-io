@@ -1,5 +1,8 @@
 # Update and change look
 
+# 08.07.2021 
+- Updated 4tdm (reworked the map)
+
 # 02.07.2021 V3
 - Aka the Overlord update V2
 - added new dominator: the drone dominator
