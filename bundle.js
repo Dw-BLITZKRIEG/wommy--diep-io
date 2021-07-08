@@ -320,7 +320,6 @@
         switch (b) {
           case "bas1":
           case "bap1":
-          case "dom1":
           case "dbc1":
           case "mbc1":
             return l.blue;
@@ -346,6 +345,7 @@
           case "dom0":
           case "dbc0":
           case "mbc0":
+          case "dom1":
             return l.yellow;
           case "port":
             return (g.globalAlpha = 1), l.black;
