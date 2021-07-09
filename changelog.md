@@ -2,6 +2,7 @@
 
 # 09.07.2021 
 - added new Gamemode: Developer Event
+- added the drone dominator to 4tdm
 
 # 08.07.2021   V2
 - Updated 2team domination (reworked the map)
