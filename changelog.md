@@ -1,5 +1,8 @@
 # Update and change look
 
+# 09.07.2021 
+- added new Gamemode: Developer Event
+
 # 08.07.2021   V2
 - Updated 2team domination (reworked the map)
 

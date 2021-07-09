@@ -4664,6 +4664,7 @@
             ],
             [
               { id: "d", to: "Domination" },
+              { id: "D", to: "Developer Event" },
               { id: "A", to: "defend the mega base" },
               { id: "x", to: "Event" },
               { id: "S", to: "Siege" },
@@ -4684,6 +4685,15 @@
             type: "domination",
             code: "glitch-frankfurt-2d",
             at: p.glitch("idiot-22"),
+            prefer: !0,
+            featured: 1 // For Featured Status.
+          },
+          {
+            visible: 0,
+            id: "developer",
+            type: "developer",
+            code: "glitch-frankfurt-D",
+            at: p.glitch("idiot-20"),
             prefer: !0,
             featured: 1 // For Featured Status.
           },
