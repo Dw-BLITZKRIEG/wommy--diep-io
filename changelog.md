@@ -1,5 +1,9 @@
 # Update and change look
 
+# 14/15.07.2021 
+- added new zaphkiel...
+- soon adding theia
+
 # 14.07.2021 
 - reworked the desing of the destroyer dominator
 
