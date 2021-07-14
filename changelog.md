@@ -1,5 +1,8 @@
 # Update and change look
 
+# 14.07.2021 
+- fixed a bug, when you contest a capturet team dom, then capture it, it said: "the Undefind dominator is now controlled by blue!"
+
 # 09.07.2021 
 - added new Gamemode: Developer Event
 - added the drone dominator to 4tdm
