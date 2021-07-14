@@ -2,6 +2,7 @@
 
 # 14.07.2021 
 - fixed a bug, when you contest a capturet team dom, then capture it, it said: "the Undefind dominator is now controlled by blue!"
+- Arena Closer go now trough walls
 
 # 09.07.2021 
 - added new Gamemode: Developer Event
