@@ -1,6 +1,9 @@
 # Update and change look
 
 # 14.07.2021 
+- reworked the desing of the destroyer dominator
+
+# 14.07.2021 
 - fixed a bug, when you contest a capturet team dom, then capture it, it said: "the Undefind dominator is now controlled by blue!"
 - Arena Closer go now trough walls
 
