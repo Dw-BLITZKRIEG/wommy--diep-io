@@ -4707,6 +4707,14 @@
           },
           {
             visible: 0,
+            id: "Maze",
+            type: "Maze",
+            code: "glitch-frankfurt-m",
+            at: p.glitch("idiot-21"),
+            //featured: 1 // For Featured Status.
+          },
+          {
+            visible: 0,
             id: "2tdm",
             type: "2tdm",
             code: "glitch-frankfurt-2",

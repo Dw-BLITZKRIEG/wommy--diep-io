@@ -1,5 +1,8 @@
 # Update and change look
 
+# 16.07.2021 
+- re-added Maze!
+
 # 15.07.2021 
 - added new Secret Celestial
 - added new celestial: Theia
