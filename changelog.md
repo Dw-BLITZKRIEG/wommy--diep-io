@@ -2,6 +2,7 @@
 
 # 15.07.2021 
 - added new Secret Celestial
+- added new celestial: Theia
 - do you belive in Enternal(Kronos)
 
 # 14/15.07.2021 
