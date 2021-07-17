@@ -4730,7 +4730,7 @@
             //featured: 1 // For Featured Status.
           },
           {
-            visible: 1,
+            visible: 0,
             id: "Zombie-defense",
             type: "Zombie-defense",
             code: "glitch-singapore-Z",
