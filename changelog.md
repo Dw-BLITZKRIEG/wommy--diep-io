@@ -1,5 +1,10 @@
 # Update and change look
 
+# 17.07.2021 
+- aka the nerf update!
+- nerfend healer regen by 25%
+- nerfend the size of the dominators!
+
 # 16.07.2021 
 - re-added Maze!
 
