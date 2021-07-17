@@ -4731,8 +4731,8 @@
           },
           {
             visible: 1,
-            id: "Glitch-Domination",
-            type: "dominaton",
+            id: "Zombie-defense",
+            type: "Zombie-defense",
             code: "glitch-singapore-Z",
             at: p.glitch("idiot-153")
             // featured: 1, // For Featured Status.
