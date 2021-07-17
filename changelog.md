@@ -1,5 +1,8 @@
 # Update and change look
 
+# 17/18.07.2021 
+- added new boss called: "gun-ship"
+
 # 17.07.2021 
 - aka the nerf update!
 - nerfend healer regen by 25%
