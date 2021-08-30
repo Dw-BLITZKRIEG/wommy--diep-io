@@ -1,5 +1,12 @@
 # Update and change look
 
+# 30/08/2021
+- added 2 new tanks called "steahl bomber" and "Boom maker"
+- both upgrade from bomber, steahl bomber is basicly bomber but it gets inv,
+boom maker is also basicly bomber but instead of an trap turret there is an spawner!
+- is Wommy-diep.io dead?
+- Note: this may be the latest update for some weeks or months!
+
 # 17/18.07.2021 
 - added new boss called: "gun-ship"
 
