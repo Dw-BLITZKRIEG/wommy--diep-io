@@ -1,5 +1,8 @@
 # Update and change look
 
+# 5/09/2021
+- added 4 new tanks called "twin grower", "giga grower", "twin giga grower","triple grower",   "triple mega grower", "launcher",  
+
 # 30/08/2021
 - added 2 new tanks called "steahl bomber" and "Boom maker"
 - both upgrade from bomber, steahl bomber is basicly bomber but it gets inv,
