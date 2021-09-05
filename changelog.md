@@ -1,8 +1,16 @@
 # Update and change look
 
 # 5/09/2021
-- added 4 new tanks called "twin grower", "giga grower", "twin giga grower","triple grower",   "triple mega grower", "launcher",  
-
+- added 7 new tanks called "twin grower", "giga grower", "twin giga grower","triple grower",   "triple mega grower", "launcher", "twister" 
+- all grower tanks upgrades from grower
+- launcher upgrades from destroyer
+- skimmer, twister, rpg, sidewind ugprades now from launcher!
+- added new celestial boss called "melkai" 
+- added new dominator called "grower dominator"
+- new dominator   pawns
+- added new branch to Senior Tester, beta tester, developer called "doms"
+- all dominator upgrades now from doms branch!
+- nerfed sidewinder reaload to prevent lag
 # 30/08/2021
 - added 2 new tanks called "steahl bomber" and "Boom maker"
 - both upgrade from bomber, steahl bomber is basicly bomber but it gets inv,
