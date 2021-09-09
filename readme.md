@@ -4,7 +4,6 @@ before u do smothing take a look at: remix license!
 
 
 The offical client for the arras-mayhem server.
-![purple Arras.io logo](https://cdn.glitch.com/fca666a2-8235-47b6-a711-c9926dc2248f%2FLogo.png?v=1595837913869) 
 # Features
 - Sound effects!
 - Music!
@@ -16,8 +15,7 @@ The offical client for the arras-mayhem server.
 - Webserver compatibility with 6 different languages!
 - In-game Chat! 
 > :warning: **Chat system requires server modification!!!**<br/> It won't work out of the box with standard servers, minor code additions are needed!
-# Trailer
-[![kute trailer](http://img.youtube.com/vi/P3cuHSb8Ols/0.jpg)](https://www.youtube.com/watch?v=P3cuHSb8Ols "arras mayhem")
+
 # Webservers
 The client is able to be hosted as either a Node.js Express, PHP, Go HTTP, Ruby Webrick, C or Python Flask webserver. Details below! Examples are linked as well.
 
