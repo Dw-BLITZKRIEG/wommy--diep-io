@@ -1,5 +1,17 @@
 # Update and change look
 
+# 11/09/2021
+- added 2 new Celestials called "Eltika","Lekrica"
+- added 2  new tanks called "makre X I" and "makre X II" 
+- added new branch called celestial-page upgrades from bosses
+- added new boss called "elite splitter"
+- fixed boss spawner
+- all celestial upgrades has been moved to "Celestial-page"
+- "makre X I" upgrades from basic, and "makre X II" from "makre X I"
+- "elite splitter" upgrades from bosses
+- moved zaphkiel and paladin to freja
+- soon re-adding 2tdm
+
 # 5/09/2021
 - added 7 new tanks called "twin grower", "giga grower", "twin giga grower","triple grower",   "triple mega grower", "launcher", "twister" 
 - all grower tanks upgrades from grower
@@ -7,7 +19,7 @@
 - skimmer, twister, rpg, sidewind ugprades now from launcher!
 - added new celestial boss called "melkai" 
 - added new dominator called "grower dominator"
-- new dominator   pawns
+- new dominator   spawns
 - added new branch to Senior Tester, beta tester, developer called "doms"
 - all dominator upgrades now from doms branch!
 - nerfed sidewinder reaload to prevent lag
