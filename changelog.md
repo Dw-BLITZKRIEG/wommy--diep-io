@@ -1,5 +1,10 @@
 # Update and change look
 
+# 11/09/2021 V2
+- mini update
+- added 1 new Celestial called "zapgus"
+- zapgus upgrades from celestial-bosses-page
+
 # 11/09/2021
 - added 2 new Celestials called "Eltika","Lekrica"
 - added 2  new tanks called "makre X I" and "makre X II" 
