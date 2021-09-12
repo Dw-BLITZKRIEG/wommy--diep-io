@@ -4687,7 +4687,14 @@
             at: p.glitch("idiot-22"),
             prefer: !0,
             featured: 1 // For Featured Status.
-         
+          }, {
+            visible: 0,
+            id: "2tdm",
+            type: "2tdm",
+            code: "glitch-la-2",
+            at: p.glitch("idiot-22"),
+            prefer: !0,
+            featured: 1 // For Featured Status.
           
           }
         ]

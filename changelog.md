@@ -1,5 +1,8 @@
 # Update and change look
 
+# 12/09/2021 
+- re-added 2tdm
+
 # 11/09/2021 V2
 - mini update
 - added 1 new Celestial called "zapgus"
