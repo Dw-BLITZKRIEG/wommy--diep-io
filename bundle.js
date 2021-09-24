@@ -4692,7 +4692,7 @@
             id: "2tdm",
             type: "2tdm",
             code: "glitch-la-2",
-            at: p.glitch("idiot-22"),
+            at: p.glitch("wd-server1"),
             prefer: !0,
             featured: 1 // For Featured Status.
           
