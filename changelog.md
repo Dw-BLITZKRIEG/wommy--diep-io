@@ -1,5 +1,13 @@
 # Update and change look
 
+# 25/09/2021 
+- added 3 new bosses called "telarus", "niše", "pelkija"
+- fixed 2tdm map
+- telarus is basicly paladin, but with grower turrets, upgrades from celestial page
+- niše is freja and theia combined
+- pelkija is zapkiel, freja, amd paladin combined
+- nise is basicly a fallen kind Celestial
+
 # 12/09/2021 
 - re-added 2tdm
 
