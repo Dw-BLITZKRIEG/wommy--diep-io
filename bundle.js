@@ -4668,6 +4668,7 @@
               { id: "A", to: "defend the mega base" },
               { id: "x", to: "Event" },
               { id: "S", to: "Siege" },
+              { id: "T", to: "Test-Server" },
               { id: "s", to: "Sandbox" },
               { id: "Q", to: "Arena Closer Survival" },
               { id: "Z", to: "Zombie defense" },
@@ -4683,9 +4684,15 @@
             visible: 0,
             id: "Siege",
             type: "Siege",
+            code: "glitch-la-T",
+            at: p.glitch("wd-server4"),
+            featured: 1 // For Featured Status.
+          }, {
+            visible: 0,
+            id: "Siege",
+            type: "Siege",
             code: "glitch-frankfurt-S",
             at: p.glitch("wd-server3"),
-            prefer: !0,
             featured: 1 // For Featured Status.
           }, {
             visible: 0,
@@ -4693,7 +4700,6 @@
             type: "Domination",
             code: "glitch-frankfurt-2d",
             at: p.glitch("wd-server2"),
-            prefer: !0,
             featured: 1 // For Featured Status.
           }, {
             visible: 0,
@@ -4701,7 +4707,6 @@
             type: "2Tdm",
             code: "glitch-la-2",
             at: p.glitch("wd-server1"),
-            prefer: !0,
             featured: 1 // For Featured Status.
           
           }
