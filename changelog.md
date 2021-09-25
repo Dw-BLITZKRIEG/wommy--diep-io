@@ -1,6 +1,17 @@
 # Update and change look
 
 # 25/09/2021 
+- re-added Siege
+- fixed theia
+- fixed zaphkiel
+- tons of Bosses spawn in Siege
+- reworked siege 
+- rezied siege by -50% to reduce lag
+- fixed siege lag
+- fixed telarus name
+- fixed pelkija name
+
+# 24-25/09/2021 
 - added 3 new bosses called "telarus", "niše", "pelkija"
 - fixed 2tdm map
 - telarus is basicly paladin, but with grower turrets, upgrades from celestial page
