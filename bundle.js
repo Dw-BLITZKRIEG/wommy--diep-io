@@ -4683,6 +4683,14 @@
             visible: 0,
             id: "domination",
             type: "domination",
+            code: "glitch-frankfurt-S",
+            at: p.glitch("wd-server3"),
+            prefer: !0,
+            featured: 1 // For Featured Status.
+          }, {
+            visible: 0,
+            id: "domination",
+            type: "domination",
             code: "glitch-frankfurt-2d",
             at: p.glitch("wd-server2"),
             prefer: !0,
