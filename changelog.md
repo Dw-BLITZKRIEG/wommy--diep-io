@@ -1,5 +1,10 @@
 # Update and change look
 
+# 25/09/2021 V2
+- recuded food spawnig to recude lag
+- added new gamemode: test server, its purpose as it names says is to test new tanks 
+fouctions etc
+
 # 25/09/2021 
 - re-added Siege
 - fixed theia
