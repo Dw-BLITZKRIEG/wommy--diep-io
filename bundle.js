@@ -4681,24 +4681,24 @@
         servers: [
           {
             visible: 0,
-            id: "domination",
-            type: "domination",
+            id: "Siege",
+            type: "Siege",
             code: "glitch-frankfurt-S",
             at: p.glitch("wd-server3"),
             prefer: !0,
             featured: 1 // For Featured Status.
           }, {
             visible: 0,
-            id: "domination",
-            type: "domination",
+            id: "Domination",
+            type: "Domination",
             code: "glitch-frankfurt-2d",
             at: p.glitch("wd-server2"),
             prefer: !0,
             featured: 1 // For Featured Status.
           }, {
             visible: 0,
-            id: "2tdm",
-            type: "2tdm",
+            id: "2Tdm",
+            type: "2Tdm",
             code: "glitch-la-2",
             at: p.glitch("wd-server1"),
             prefer: !0,
