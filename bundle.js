@@ -4684,7 +4684,7 @@
             id: "domination",
             type: "domination",
             code: "glitch-frankfurt-2d",
-            at: p.glitch("idiot-22"),
+            at: p.glitch("wd-server2"),
             prefer: !0,
             featured: 1 // For Featured Status.
           }, {
