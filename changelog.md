@@ -1,5 +1,8 @@
 # Update and change look
 
+# 26/09/2021 
+- rezied 2tdm by -50% to reduce lag
+
 # 25/09/2021 V2
 - recuded food spawnig to recude lag
 - added new gamemode: test server, its purpose as it names says is to test new tanks 
