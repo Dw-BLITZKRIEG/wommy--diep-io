@@ -4682,8 +4682,8 @@
         servers: [
           {
             visible: 0,
-            id: "Siege",
-            type: "Siege",
+            id: "Test-Server",
+            type: "Test-Server",
             code: "glitch-la-T",
             at: p.glitch("wd-server4"),
             featured: 1 // For Featured Status.
