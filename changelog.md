@@ -1,5 +1,13 @@
 # Update and change look
 
+# 01/10/2021 
+- added new celestial kind and new special celestial called "elkroco"
+- elkroco is other that all the celestials gray, like the palisade
+- added new page to celestial-page called "EL-Celestial page"
+- other than all the other celestials is elkroco a simliar kind to arras.io rouge celestial
+but with one diffrence: instead of being the top layer shaped like a pentagon, its shaped like the middle layer!
+- changed the name from "Wommy-diep.io" to "Wommy-diep.io[beta]"
+
 # 26/09/2021 
 - rezied 2tdm by -50% to reduce lag
 
