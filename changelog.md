@@ -1,5 +1,16 @@
 # Update and change look
 
+# 02/10/2021  V2
+- added new tanks called "Makre X III" and "Overlooker"
+- Makre X iii upgrades from makre X ii
+- overlooker upgrades from overlord
+- makre x iii is a triplent ver of makre x i
+- overlooker is basicly overlord, but with more fov and more drones
+- added new desgin to siege map
+- buffed rkrake by +100x, due being to weeker than enternal with 4800hp to 4800000hp
+- gunship now spawns in siege
+
+
 # 02/10/2021 
 - added new tanks called "jump smasher" "me speedy boi" and "auto-3-2"
 - Jump smasher is like the name says, a smasher that jumps, it upgrades from smasher
