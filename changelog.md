@@ -1,5 +1,13 @@
 # Update and change look
 
+# 02/10/2021 
+- added new tanks called "jump smasher" "me speedy boi" and "auto-3-2"
+- Jump smasher is like the name says, a smasher that jumps, it upgrades from smasher
+- "me speedy boi" is basicly jump smasher but with insanly stupid reload and recoil, upgrades from misc
+- auto-3-2 is as it name says the combo of auto3 and  auto2, itsteand of having a circular base, its shaped like a triangle,
+upgrades from Auto-3, obivusoly
+- nerfed destroyer dominator and steam roller dominator!, by 50%
+
 # 01/10/2021 
 - added new celestial kind and new special celestial called "elkroco"
 - elkroco is other that all the celestials gray, like the palisade
