@@ -4684,7 +4684,7 @@
             visible: 0,
             id: "Test-Server",
             type: "Test-Server",
-            code: "glitch-la-T",
+            code: "z-la-T",
             at: p.glitch("wd-server4"),
             featured: 1 // For Featured Status.
           }, {
