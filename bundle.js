@@ -4701,13 +4701,6 @@
             code: "glitch-frankfurt-2d",
             at: p.glitch("wd-server2"),
             featured: 1 // For Featured Status.
-          }, {
-            visible: 0,
-            id: "2Tdm",
-            type: "2Tdm",
-            code: "glitch-la-2",
-            at: p.glitch("wd-server1"),
-            featured: 1 // For Featured Status.
           
           }
         ]
