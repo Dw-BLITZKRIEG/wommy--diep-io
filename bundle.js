@@ -4322,7 +4322,7 @@
               "All tanks have up to 10x reload!",
               'If you have a valid token, use the name "Tester" to spawn as Testbed!',
               "Press 'N' to level up.",
-              "Prevent pressing "
+              "Prevent pressing 'b'! its a key to disconnet from the server!"
             ],
             [
               "Avoid upgrading the reload stat if you wish for a smooth game!",
