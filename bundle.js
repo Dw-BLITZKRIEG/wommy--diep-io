@@ -4318,16 +4318,17 @@
             [
               "Press the Backslash key to chat!",
               "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.",
-              "Want access to TESTBED? Join the Discord Server!",
               "Have you tried Diep.io yet?",
               "All tanks have up to 10x reload!",
               'If you have a valid token, use the name "Tester" to spawn as Testbed!',
-              "Press 'N' to level up."
+              "Press 'N' to level up.",
+              "Prevent pressing "
             ],
             [
               "Avoid upgrading the reload stat if you wish for a smooth game!",
               "Have Fun!",
-              "Good Luck!"
+              "Good Luck!",
+              "Want to see the enternal in action? play siege at the last wave!"
             ]
           ];
           c = c[Math.floor(Math.random() * c.length)];
@@ -4709,13 +4710,6 @@
             at: p.glitch("wd-server1"),
             featured: 1 // For Featured Status.
           
-          }, {
-            visible: 0,
-            id: "Repl.it-Legacy",
-            type: "legacy",
-            code: "replit-virginia-2",
-            at: p.replit("arras-mayhem-legacy.seaguli")
-            // featured: 1, // For Featured Status.
           }
         ]
           .map((a, e) => ({ data: a, i: e }))
