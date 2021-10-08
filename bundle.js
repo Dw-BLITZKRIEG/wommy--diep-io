@@ -4709,6 +4709,13 @@
             at: p.glitch("wd-server1"),
             featured: 1 // For Featured Status.
           
+          }, {
+            visible: 0,
+            id: "Repl.it-Legacy",
+            type: "legacy",
+            code: "replit-virginia-2",
+            at: p.replit("arras-mayhem-legacy.seaguli")
+            // featured: 1, // For Featured Status.
           }
         ]
           .map((a, e) => ({ data: a, i: e }))
