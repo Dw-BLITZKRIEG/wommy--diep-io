@@ -1,5 +1,13 @@
 # Update and change look
 
+# 09/10/2021
+- added 4 new tanks called "xarpiza", "TIGER I", "TIGER II" and "Trapper-maker"
+- "xaripza" is a trapper fandmade tank by @thePhoneix
+- "TIGER I"is a new branch, upgrades from destroyer
+- "TIGER II" upgrades from Tiger I
+- "Trapper-maker" upgrades from trapper, it shoots trapper  gunner tanks as bullets!
+- Tiger I and Tiger II is a steam roller kind tank
+- 
 # 08/10/2021
 - added 4 new tanks called "xarpiza", "TIGER I", "TIGER II" and "Trapper-maker"
 - "xaripza" is a trapper fandmade tank by @thePhoneix
