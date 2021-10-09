@@ -3668,9 +3668,11 @@
                     Math.round(c + 165) + 0.5,
                     Math.round(d - 10 - 4) + 0.5,
                     32,
-                    150 > Date.now() % 300 ? l.red : l.blue, 
-            
-                    "center"
+                    150 > Date.now() % 300 ? l.red : l.blue,
+                    "center",
+                     else {
+                    32,
+                    150 > Date.now() % 300 ? l.red : l.blue,
                   );
                 if (z.name.includes("Dev⠀"))
                   N.draw(
