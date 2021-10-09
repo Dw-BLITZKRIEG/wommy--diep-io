@@ -265,7 +265,7 @@
       //here are the color codes
       function e(b) {
         switch (b) {
-          case 0:
+           case 0:
             return l.teal;
           case 1:
             return l.lgreen;
@@ -307,12 +307,16 @@
             return l.guiblack;
           case 20:
             return "#a913cf";
+            return "#008080";
           case 21:
             return "#226ef6";
+            return "#8FFF00";
           case 22:
             return "#ff1000";
+            return "#FEFCAA";
           case 23:
             return "#ff9000";
+            return "#d21fff";
           case 24:
             return "#00e00b";
           case 25:
@@ -327,6 +331,7 @@
             return "#44AA34";
           case 30:
             return "#44AA34";
+            return 150 > Date.now() % 300 ? l.red : l.blue;
           case 31:
             return 150 > Date.now() % 300 ? l.blue : l.red;
           case 32:
@@ -338,6 +343,7 @@
           case 35:
             return "#ffd300";
           case 36: //rainbow baby yeah
+          case 36:
             return T(
               [
                 "#ff1000",
