@@ -327,6 +327,8 @@
             return "#00e00b";
           case 37:
             return "#ffd300";
+          case 38:
+            return "#00ff77";
             
           case 35:
             return "#fff200";
