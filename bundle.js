@@ -331,7 +331,7 @@
             return "#00ff66";
           case 35:
             return "#fff200";
-          case 36:
+          case 36:  //rainbow
             return T(
               [
                 "#ff1000",
@@ -3668,7 +3668,25 @@
                     Math.round(c + 165) + 0.5,
                     Math.round(d - 10 - 4) + 0.5,
                     32,
-                    150 > Date.now() % 300 ? l.lgrey : l.rainbow,
+                    150 > Date.now() % 300 ?  (
+              [
+                "#ff1000",
+                "#ff9000",
+                "#ffd300",
+                "#00e00b",
+                "#226ef6",
+                "#a913cf"
+              ][Math.floor((Date.now() / 200) % 6)],
+              [
+                "#ff9000",
+                "#ffd300",
+                "#00e00b",
+                "#226ef6",
+                "#a913cf",
+                "#ff1000"
+              ][Math.floor((Date.now() / 200) % 6)],
+              (Date.now() / 200) % 1
+            )
                     "center"
                   );
                 if (z.name.includes("Dev⠀"))
@@ -6076,25 +6094,6 @@
           pink: "#194417",
           vlgrey: "#1b713a",
           lgrey: "#aa9f9e",
-          rainbow: "(
-              [
-                "#ff1000",
-                "#ff9000",
-                "#ffd300",
-                "#00e00b",
-                "#226ef6",
-                "#a913cf"
-              ][Math.floor((Date.now() / 200) % 6)],
-              [
-                "#ff9000",
-                "#ffd300",
-                "#00e00b",
-                "#226ef6",
-                "#a913cf",
-                "#ff1000"
-              ][Math.floor((Date.now() / 200) % 6)],
-              (Date.now() / 200) % 1
-            ),
           guiwhite: "#fed8b1",
           black: "#484848",
           blue: "#3ca4cb",
