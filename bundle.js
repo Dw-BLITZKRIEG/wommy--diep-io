@@ -326,7 +326,7 @@
           case 29:
             return "#44AA34";
           case 30:
-            return 150 > Date.now() % 300 ? l.red : l.blue;
+            return "#44AA34";
           case 31:
             return 150 > Date.now() % 300 ? l.blue : l.red;
           case 32:
@@ -424,25 +424,21 @@
         switch (b) {
           case "bas1":
           case "bap1":
-          case "dom1":
           case "dbc1":
           case "mbc1":
             return l.blue;
           case "bas2":
           case "bap2":
-          case "dom2":
           case "dbc2":
           case "mbc2":
             return l.green;
           case "bas3":
           case "bap3":
-          case "dom3":
           case "dbc3":
           case "mbc3":
             return l.red;
           case "bas4":
           case "bap4":
-          case "dom4":
           case "dbc4":
           case "mbc4":
             return l.pink;
@@ -450,8 +446,17 @@
           case "dom0":
           case "dbc0":
           case "mbc0":
+          case "dom1":
+          case "dom5":
+          case "dom3":
+          case "dom4":
+          case "dom2":
             return l.yellow;
           case "port":
+          case "bad1":
+          case "bad2":
+          case "bad3":
+          case "bad4":
             return (g.globalAlpha = 1), l.black;
           case "edge":
             return T(l.white, l.guiblack, 1 / 3);
@@ -4360,13 +4365,13 @@
           m();
           var c = [
             [
-              "join the di",
+              "join the discord server for secret updates",
               "Stuck on connecting? Refresh the page, or try another server."
             ],
             [
               "Press the Backslash '/' key to chat!",
               "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.",
-              "Want access to TESTBED? Join the Discord Server!",
+              "Have you tried arras mayhem yet?",
               "Have you tried Diep.io yet?",
               "All tanks have up to 10x reload!",
               'If you have a valid token, use the name "Tester" to spawn as Testbed!',
@@ -4375,7 +4380,8 @@
             [
               "Avoid upgrading the reload stat if you wish for a smooth game!",
               "Have Fun!",
-              "Good Luck!"
+              "Good Luck!",
+              "Have a nice day and good luck!"
             ]
           ];
           c = c[Math.floor(Math.random() * c.length)];
