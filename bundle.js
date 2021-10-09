@@ -3668,20 +3668,17 @@
                     Math.round(c + 165) + 0.5,
                     Math.round(d - 10 - 4) + 0.5,
                     32,
-                    150 > Date.now() % 300 ? l.red : l.blue,
-                    "center",
-                     else {
-                    32,
-                    150 > Date.now() % 300 ? l.red : l.blue,
+                    150 > Date.now() % 300 ? l.lred : l.lblue,
+                    "center"
                   );
-                if (z.name.includes("Dev⠀"))
+                if (z.name.includes("dev "))
                   N.draw(
                     z.name,
                     Math.round(c + 165) + 0.5,
                     Math.round(d - 10 - 4) + 0.5,
                     32,
                     150 > Date.now() % 300 ? l.yellow : l.yellow,
-                    "center"
+                    "center",
                   );
                 //};// name color
               }
