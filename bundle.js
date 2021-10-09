@@ -327,11 +327,10 @@
             return "#00e00b";
           case 37:
             return "#ffd300";
-            case 38:
-            return "#00ff66";
+            
           case 35:
             return "#fff200";
-          case 36:  //rainbow
+          case 36:
             return T(
               [
                 "#ff1000",
@@ -3660,33 +3659,6 @@
                     Math.round(d - 10 - 4) + 0.5,
                     32,
                     150 > Date.now() % 300 ? l.lgrey : l.lgrey,
-                    "center"
-                  );
-                if (z.name.includes("[DEV]"))
-                  N.draw(
-                    z.name,
-                    Math.round(c + 165) + 0.5,
-                    Math.round(d - 10 - 4) + 0.5,
-                    32,
-                    150 > Date.now() % 300 ?  (
-              [
-                "#ff1000",
-                "#ff9000",
-                "#ffd300",
-                "#00e00b",
-                "#226ef6",
-                "#a913cf"
-              ][Math.floor((Date.now() / 200) % 6)],
-              [
-                "#ff9000",
-                "#ffd300",
-                "#00e00b",
-                "#226ef6",
-                "#a913cf",
-                "#ff1000"
-              ][Math.floor((Date.now() / 200) % 6)],
-              (Date.now() / 200) % 1
-            )
                     "center"
                   );
                 if (z.name.includes("Dev⠀"))
