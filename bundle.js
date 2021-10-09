@@ -1,3 +1,63 @@
+     //just some code to make the sound work
+      var smallaudio = new Audio();
+      smallaudio.src =
+        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg";
+      function PlaySound210() {
+        smallaudio.play();
+      }
+      var clicked = false;
+
+      function doSomething() {
+        if (clicked) {
+          var bflat25 = new Audio();
+          bflat25.src =
+            "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/cancel.wav";
+          bflat25.load();
+          bflat25.play();
+        } else {
+          var bflat33 = new Audio();
+          bflat33.src =
+            "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg";
+          bflat33.load();
+          bflat33.play();
+        }
+        clicked = !clicked;
+      }
+      var smallaudio2 = new Audio();
+      smallaudio2.src =
+        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/error.ogg";
+      function PlaySound211() {
+        smallaudio2.play();
+      }
+      var smallaudio3 = new Audio(
+        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/socket.wav"
+      );
+
+      smallaudio3.loop = false;
+      function PlaySound212() {
+        smallaudio3.loop = false;
+        smallaudio3.play();
+      }
+  var smallaudio5 = new Audio();
+  smallaudio5.src =
+    "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/poka.wav";
+  function PlaySound214() {
+    smallaudio5.play();
+  }
+  var smallaudio6 = new Audio();
+  smallaudio6.src =
+    "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/finish.wav";
+  function PlaySound215() {
+    smallaudio6.play();
+  }
+  var smallaudio4 = new Audio();
+  smallaudio4.src =
+    "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/camera.wav";
+  function PlaySound213() {
+    smallaudio4.play();
+  }
+
+
 ~function() {
   "use strict";
   var I = I || {};
@@ -17,24 +77,6 @@
       );
     return r + "";
   };
-                var smallaudio5 = new Audio();
-      smallaudio5.src =
-        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/poka.wav";
-      function PlaySound214() {
-        smallaudio5.play();
-      }
-      var smallaudio6 = new Audio();
-      smallaudio6.src =
-        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/finish.wav";
-      function PlaySound215() {
-        smallaudio6.play();
-      }
-                        var smallaudio4 = new Audio();
-      smallaudio4.src =
-        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/camera.wav";
-      function PlaySound213() {
-        smallaudio4.play();
-      }
 
   I.ASSUME_ES5 = !1;
   I.ASSUME_NO_NATIVE_MAP = !1;
@@ -220,7 +262,7 @@
       function a() {
         window.dataLayer.push(arguments);
       }
-//here are the color codes
+      //here are the color codes
       function e(b) {
         switch (b) {
           case 0:
@@ -264,15 +306,25 @@
           case 19:
             return l.guiblack;
           case 20:
-            return "#008080";
+            return "#a913cf";
           case 21:
-            return "#8FFF00";
-          case 22:
-            return "#FEFCAA";
-          case 23:
-            return "#d21fff";
-          case 24:
             return "#226ef6";
+          case 22:
+            return "#ff1000";
+          case 23:
+            return "#ff9000";
+          case 24:
+            return "#00e00b";
+          case 25:
+            return "#ffd300";
+          case 26:
+            return "#226ef6";
+          case 27:
+            return "#3761D1";
+          case 28:
+            return "#AB1515";
+          case 29:
+            return "#44AA34";
           case 30:
             return 150 > Date.now() % 300 ? l.red : l.blue;
           case 31:
@@ -285,7 +337,7 @@
             return "#00e00b";
           case 35:
             return "#ffd300";
-          case 36:
+          case 36: //rainbow baby yeah
             return T(
               [
                 "#ff1000",
@@ -306,6 +358,58 @@
               (Date.now() / 200) % 1
             );
           //["#ff1600","#ff2b00","#ff4100","#ff5700","#ff6c00","#ff8200","#ff9700","#ffad00","#ffc300","#ffd800"]
+          case 37:
+            return "#FFFF00";
+          case 38:
+             return T(
+              [
+                "#ffffff",
+                "#000000",
+              ][Math.floor((Date.now() / 400) % 2)],
+              [
+                "#000000",
+                "#ffffff"
+              ][Math.floor((Date.now() / 400) % 2)],
+              (Date.now() / 400) % 1
+            );
+          case 39:
+            return "#A177FC";
+          case 40:
+            return "#56E012";
+            case 41:
+            return "#15CD2D";
+            case 42:
+            return "#A277FB";
+            case 43:
+            return "#FF7F00";
+            case 44:
+            return T(
+              [
+                "#b493d3",
+                "#ffe6f4",
+              ][Math.floor((Date.now() / 400) % 2)],
+              [
+                "#ffe6f4",
+                "#b493d3"
+              ][Math.floor((Date.now() / 400) % 2)],
+              (Date.now() / 400) % 1
+            );
+              case 45:
+            return "#b493d3";
+              case 46:
+            return "#ffe6f4";
+              case 47:
+            return "#008080";
+          case 48:
+            return "#8FFF00";
+          case 49:
+            return "#FEFCAA";
+          case 50:
+            return "#d21fff";
+          case 51:
+            return "#B35ED8";
+          case 52:
+            return "#0531CB";
           default:
             return "#ff0000";
         }
@@ -315,26 +419,30 @@
         let d = B.graphical.neon ? l.white : l.black;
         return B.graphical.darkBorders ? d : T(b, d, l.border);
       }
-//here are the map colors
+      //here are the map colors
       function x(b) {
         switch (b) {
           case "bas1":
           case "bap1":
+          case "dom1":
           case "dbc1":
           case "mbc1":
             return l.blue;
           case "bas2":
           case "bap2":
+          case "dom2":
           case "dbc2":
           case "mbc2":
             return l.green;
           case "bas3":
           case "bap3":
+          case "dom3":
           case "dbc3":
           case "mbc3":
             return l.red;
           case "bas4":
           case "bap4":
+          case "dom4":
           case "dbc4":
           case "mbc4":
             return l.pink;
@@ -342,11 +450,6 @@
           case "dom0":
           case "dbc0":
           case "mbc0":
-          case "dom1":
-          case "dom2":
-          case "dom3":
-          case "dom4":
-          case "dom5":
             return l.yellow;
           case "port":
             return (g.globalAlpha = 1), l.black;
@@ -576,44 +679,7 @@
         }
         return btoa(b).replace(/=+/, "");
       }
-//just some code to make the sound work 
-      var smallaudio = new Audio();
-      smallaudio.src =
-        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg";
-      function PlaySound210() {
-        smallaudio.play();
-      }
-      var clicked = false;
-
-      function doSomething() {
-        if (clicked) {
-          var bflat25 = new Audio();
-          bflat25.src =
-            "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/cancel.wav";
-          bflat25.load();
-          bflat25.play();
-        } else {
-          var bflat33 = new Audio();
-          bflat33.src =
-            "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/sysse_ok.ogg";
-          bflat33.load();
-          bflat33.play();
-        }
-        clicked = !clicked;
-      }
-      var smallaudio2 = new Audio();
-      smallaudio2.src =
-        "https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/error.ogg";
-      function PlaySound211() {
-        smallaudio2.play();
-      }
-     var smallaudio3 = new Audio("https://cloud-cube.s3.amazonaws.com/m660o440l0wv/public/socket.wav");
-
-      smallaudio3.loop = false;
-      function PlaySound212() {
-          smallaudio3.loop = false;
-        smallaudio3.play();
-      }
+   
       function t() {
         if (!ua) {
           ua = !0;
@@ -1158,6 +1224,10 @@
                 return "Body Damage;Max Health;Bullet Speed;Bullet Health;Bullet Penetration;Healing Intensity;Reload;Movement Speed;Shield Regeneration;Shield Capacity".split(
                   ";"
                 );
+              case 8:
+                return "Body Damage;Max Health;Lance Range;Lance Longevity;Lance Sharpness;Lance Damage;Lance Density;Movement Speed;Shield Regeneration;Shield Capacity".split(
+                  ";"
+                );
               default:
                 return "Body Damage;Max Health;Bullet Speed;Bullet Health;Bullet Penetration;Bullet Damage;Reload;Movement Speed;Shield Regeneration;Shield Capacity".split(
                   ";"
@@ -1516,14 +1586,7 @@
                       }
                     });
                   })
-                    .then(() =>
-                      fetch("http://ip-p.arras.io:2020/poll/" + a + "/status")
-                    )
-                    .then(b => b.json())
-                    .then(b => {
-                      if (!b.ok) throw Error("Poll does not exist!");
-                      c = b.options;
-                    });
+     
                 L.onclick = () => {
                   L.remove();
                   let a = b
@@ -1876,7 +1939,7 @@
           return (
             PlaySound211(), setTimeout(alert("Please enter a name!"), 30000)
           );
-             PlaySound210();
+        PlaySound210();
         t();
       };
       let La = WebSocket.prototype.close;
@@ -2347,22 +2410,7 @@
                 z.renderx = z.cx;
                 z.rendery = z.cy;
                 z.renderv = z.view;
-                ia &&
-                  (clearInterval(qa),
-                  Y.push({
-                    text: "Thank you for playing Wommy-diep.io!",
-                    status: 2,
-                    alpha: 0,
-                    time: Date.now()
-                  }),
-                  (qa = setInterval(() => {
-                    Y.push({
-                      text: "Thank you for playing Wommy-diep.io!",
-                      status: 2,
-                      alpha: 0,
-                      time: Date.now()
-                    });
-                  }, 6e5)));
+     
                 break;
               case "S":
                 var d = c[0];
@@ -2481,7 +2529,7 @@
               b.died ||
                 b.message ||
                 (b.message = "Socket closed. Refresh to continue playing!"));
-            PlaySound212()
+            PlaySound212();
             console.warn("WebSocket closed: ", a);
           };
           g.onerror = function(a) {
@@ -4312,23 +4360,22 @@
           m();
           var c = [
             [
-              "Be mindful of others! Refrain from using laggy tanks while others are present!",
+              "join the di",
               "Stuck on connecting? Refresh the page, or try another server."
             ],
             [
-              "Press the Backslash key to chat!",
+              "Press the Backslash '/' key to chat!",
               "Tip: If arras is having a low frame rate, you can try enabling low graphics in the options menu.",
+              "Want access to TESTBED? Join the Discord Server!",
               "Have you tried Diep.io yet?",
               "All tanks have up to 10x reload!",
               'If you have a valid token, use the name "Tester" to spawn as Testbed!',
-              "Press 'N' to level up.",
-              "Prevent pressing 'b'! its a key to disconnet from the server!"
+              "Press 'N' to level up."
             ],
             [
               "Avoid upgrading the reload stat if you wish for a smooth game!",
               "Have Fun!",
-              "Good Luck!",
-              "Want to see the enternal in action? play siege at the last wave!"
+              "Good Luck!"
             ]
           ];
           c = c[Math.floor(Math.random() * c.length)];
@@ -4541,6 +4588,7 @@
           `n-${a}-${e}.7e14.starter-us-west-2.openshiftapps.com`,
         glitch: a => `${a}.glitch.me`,
         replit: a => `${a}.repl.co`,
+        render: a => `${a}.onrender.com`,
         heroku: a => `${a}.herokuapp.com`,
         arras: (a, e = 5e3) => `ip-${a}.arras.io:${e}`,
         arrasUnknown: (a, e = 5e3) => `ipu-${a}.arras.io:${e}`
@@ -4557,12 +4605,13 @@
           KEY_CHOOSE_3: "I",
           KEY_CHOOSE_4: "H",
           KEY_CHOOSE_5: "J",
-          KEY_CHOOSE_6: "K",
+          KEY_CHOOSE_6: "K"
         },
         KEY_AUTO_FIRE: 69,
         KEY_AUTO_SPIN: 67,
         KEY_OVER_RIDE: 82,
         KEY_LEVEL_UP: 78,
+        KEY_TELEPORT: 84,
         KEY_ABILITY: 70,
         KEY_REVERSE_MOUSE: 66,
         KEY_REVERSE_TANK: 86,
@@ -4604,8 +4653,6 @@
         KEY_MOUSE_1: 9,
         KEY_MOUSE_2: 16,
         KEY_FUCK_YOU: 192,
-        KEY_CHUNGUS: 188,
-         KEY_BABY: 190,
         KEY_CHAT: 191,
         KEY_GOD: 80,
         KEY_KILL_YOURSELF: 79,
@@ -4632,6 +4679,7 @@
             glitch: "Glitch",
             linode: "Linode",
             vultr: "Vultr",
+            render: "Render",
             buyvm: "BuyVM",
             extravm: "ExtraVM",
             hetzner: "Hetzner",
@@ -4664,17 +4712,11 @@
               { id: "4", to: "4 Team", end: "4TDM" }
             ],
             [
-              { id: "d", to: "Domination" },
-              { id: "D", to: "Developer Event" },
-              { id: "A", to: "defend the mega base" },
+              { id: "d", to: "2tdm Domination" },
               { id: "x", to: "Event" },
-              { id: "S", to: "Siege" },
-              { id: "T", to: "Test-Server" },
-              { id: "s", to: "Sandbox" },
-              { id: "Q", to: "Arena Closer Survival" },
-              { id: "Z", to: "Zombie defense" },
-              { id: "L", to: "Script Mode" },
-              { id: "M", to: "Mothership", remove: "2" },
+              { id: "s", to: "Siege" },
+              { id: "t", to: "Test-server" },
+              { id: "m", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
           ]
@@ -4683,31 +4725,42 @@
         servers: [
           {
             visible: 0,
-            id: "Test-Server",
-            type: "Test-Server",
-            code: "z-la-T",
-            at: p.glitch("wd-server4"),
+            id: "2tdm",
+            type: "2tdm",
+            code: "glitch-virginia-2",
+            at: p.glitch("wd-server1"),
+            // featured: 1, // For Featured Status.
+            prefer: !0,
             featured: 1 // For Featured Status.
           }, {
-            visible: 0,
-            id: "Siege",
-            type: "Siege",
-            code: "glitch-frankfurt-S",
-            at: p.glitch("wd-server3"),
-            featured: 1 // For Featured Status.
-          }, {
+            
             visible: 0,
             id: "Domination",
             type: "Domination",
-            code: "glitch-frankfurt-2d",
+            code: "glitch-la-d",
             at: p.glitch("wd-server2"),
+            // featured: 1, // For Featured Status.
+            prefer: !0,
             featured: 1 // For Featured Status.
-          }, {
+            }, {
+            
             visible: 0,
-            id: "2Tdm",
-            type: "2Tdm",
-            code: "glitch-la-2",
-            at: p.glitch("wd-server1"),
+            id: "Siege",
+            type: "Siege",
+            code: "glitch-frankfurt-s",
+            at: p.glitch("wd-server3"),
+            // featured: 1, // For Featured Status.
+            prefer: !0,
+            featured: 1 // For Featured Status.
+            }, {
+            
+            visible: 0,
+            id: "Test-server",
+            type: "Test-server",
+            code: "glitch-virginia-t",
+            at: p.glitch("wd-server4"),
+            // featured: 1, // For Featured Status.
+            prefer: !0,
             featured: 1 // For Featured Status.
           
           }
@@ -5277,6 +5330,9 @@
             case a.KEY_MOUSE_2:
               this.set(6, !0);
               break;
+              case a.KEY_TELEPORT:
+                  this.emit("F");
+                  break;
             case a.KEY_LEVEL_UP:
               this.emit("L");
               break;
@@ -5431,12 +5487,6 @@
                 case a.KEY_FUCK_YOU:
                   this.emit("0");
                   break;
-                 case a.KEY_CHUNGUS:
-                  this.emit("P");
-                  break;
-                   case a.KEY_BABY:
-                  this.emit("I");
-                  break;
                 case a.KEY_KILL_YOURSELF:
                   this.emit("K");
                   break;
@@ -5454,7 +5504,7 @@
                     if (this.videoRecorder)
                       switch (this.videoRecorder.state) {
                         case "inactive":
-                          PlaySound214() 
+                          PlaySound214();
                           a.messages.push({
                             text: "Recorder started!",
                             status: 2,
@@ -5464,7 +5514,7 @@
                           this.videoRecorder.start();
                           break;
                         case "recording":
-                          PlaySound215()
+                          PlaySound215();
                           a.messages.push({
                             text: "Recorder stopped! Saving file...",
                             status: 2,
@@ -5496,7 +5546,7 @@
                         }, 100);
                         q.click();
                       };
-                      PlaySound214()
+                      PlaySound214();
                       a.messages.push({
                         text: "Recorder initiated and started!",
                         status: 2,
@@ -5514,7 +5564,7 @@
                     });
                   break;
                 case a.KEY_SCREENSHOT:
-                  PlaySound213()
+                  PlaySound213();
                   a.messages.push({
                     text: "Saving screenshot...",
                     status: 2,
@@ -6348,53 +6398,53 @@
           paletteSize: 10,
           border: 0.3
         },
-                  bubblegum: {
-      teal: "#83ffd7",
-      lgreen: "#faa3ff",
-      orange: "#e7896d",
-      yellow: "#ff00e7",
-      lavender: "#5a00ff",
-      pink: "#ef99c3",
-      vlgrey: "#ffc0f5",
-      lgrey: "#aa9f9e",
-      guiwhite: "#00ff00",
-      black: "#484848",
-      blue: "#0000ff",
-      green: "#00ff00",
-      red: "#ff0000",
-      gold: "#ffd700",
-      purple: "#8d6adf",
-      magenta: "#ff00c0",
-      grey: "#a7a7af",
-      dgrey: "#b300ff",
-      white: "#ff81d9",
-      guiblack: "#000000",
-      paletteSize: 10,
-      border: 1
+        bubblegum: {
+          teal: "#83ffd7",
+          lgreen: "#faa3ff",
+          orange: "#e7896d",
+          yellow: "#ff00e7",
+          lavender: "#5a00ff",
+          pink: "#ef99c3",
+          vlgrey: "#ffc0f5",
+          lgrey: "#aa9f9e",
+          guiwhite: "#00ff00",
+          black: "#484848",
+          blue: "#0000ff",
+          green: "#00ff00",
+          red: "#ff0000",
+          gold: "#ffd700",
+          purple: "#8d6adf",
+          magenta: "#ff00c0",
+          grey: "#a7a7af",
+          dgrey: "#b300ff",
+          white: "#ff81d9",
+          guiblack: "#000000",
+          paletteSize: 10,
+          border: 1
         },
-              nightmare: {
- teal: "#00ffae",
-      lgreen: "#8eff00",
-      orange: "#8a2000",
-      yellow: "#ffeb00",
-      lavender: "#2b007a",
-      pink: "#930048",
-      vlgrey: "#969696",
-      lgrey: "#2a2a2a",
-      guiwhite: "#aa0000",
-      black: "#ffffff",
-      blue: "#005372",
-      green: "#406a00",
-      red: "#840002",
-      gold: "#846400",
-      purple: "#270083",
-      magenta: "#b3015f",
-      grey: "#6f6f6f",
-      dgrey: "#ffffff",
-      white: "#000000",
-      guiblack: "#ffffff",
-      paletteSize: 10,
-      border: 1
+        nightmare: {
+          teal: "#00ffae",
+          lgreen: "#8eff00",
+          orange: "#8a2000",
+          yellow: "#ffeb00",
+          lavender: "#2b007a",
+          pink: "#930048",
+          vlgrey: "#969696",
+          lgrey: "#2a2a2a",
+          guiwhite: "#aa0000",
+          black: "#ffffff",
+          blue: "#005372",
+          green: "#406a00",
+          red: "#840002",
+          gold: "#846400",
+          purple: "#270083",
+          magenta: "#b3015f",
+          grey: "#6f6f6f",
+          dgrey: "#ffffff",
+          white: "#000000",
+          guiblack: "#ffffff",
+          paletteSize: 10,
+          border: 1
         },
         candy: {
           teal: "#7ADBBC",
