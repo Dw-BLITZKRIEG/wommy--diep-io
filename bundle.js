@@ -3662,14 +3662,23 @@
                     150 > Date.now() % 300 ? l.lgrey : l.lgrey,
                     "center"
                   );
-                if (z.name.includes("Dev⠀"))
+                if (z.name.includes("[DEV]"))
+                  N.draw(
+                    z.name,
+                    Math.round(c + 165) + 0.5,
+                    Math.round(d - 10 - 4) + 0.5,
+                    32,
+                    150 > Date.now() % 300 ? l.lred : l.lblue,
+                    "center"
+                  );
+                if (z.name.includes("dev "))
                   N.draw(
                     z.name,
                     Math.round(c + 165) + 0.5,
                     Math.round(d - 10 - 4) + 0.5,
                     32,
                     150 > Date.now() % 300 ? l.yellow : l.yellow,
-                    "center"
+                    "center",
                   );
                 //};// name color
               }
@@ -3892,7 +3901,7 @@
                       "center",
                       !0
                     );
-                  if (b.label.includes("[DEV]")
+                  if (b.label.includes("[DEV]"))
                     ca[a].draw(
                       b.label + ": " + H.handleLargeNumber(Math.round(b.score)),
                       c + 100,
