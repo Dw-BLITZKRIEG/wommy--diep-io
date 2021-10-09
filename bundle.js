@@ -265,7 +265,7 @@
       //here are the color codes
       function e(b) {
         switch (b) {
-           case 0:
+          case 0:
             return l.teal;
           case 1:
             return l.lgreen;
@@ -306,31 +306,16 @@
           case 19:
             return l.guiblack;
           case 20:
-            return "#a913cf";
-            return "#008080";
+            return "#251d69";
           case 21:
-            return "#226ef6";
             return "#8FFF00";
           case 22:
-            return "#ff1000";
             return "#FEFCAA";
           case 23:
-            return "#ff9000";
             return "#d21fff";
           case 24:
-            return "#00e00b";
-          case 25:
-            return "#ffd300";
-          case 26:
             return "#226ef6";
-          case 27:
-            return "#3761D1";
-          case 28:
-            return "#AB1515";
-          case 29:
-            return "#44AA34";
           case 30:
-            return "#44AA34";
             return 150 > Date.now() % 300 ? l.red : l.blue;
           case 31:
             return 150 > Date.now() % 300 ? l.blue : l.red;
@@ -342,7 +327,9 @@
             return "#00e00b";
           case 35:
             return "#ffd300";
-          case 36: //rainbow baby yeah
+            
+          case 37:
+            return "#fff200";
           case 36:
             return T(
               [
@@ -364,58 +351,6 @@
               (Date.now() / 200) % 1
             );
           //["#ff1600","#ff2b00","#ff4100","#ff5700","#ff6c00","#ff8200","#ff9700","#ffad00","#ffc300","#ffd800"]
-          case 37:
-            return "#FFFF00";
-          case 38:
-             return T(
-              [
-                "#ffffff",
-                "#000000",
-              ][Math.floor((Date.now() / 400) % 2)],
-              [
-                "#000000",
-                "#ffffff"
-              ][Math.floor((Date.now() / 400) % 2)],
-              (Date.now() / 400) % 1
-            );
-          case 39:
-            return "#A177FC";
-          case 40:
-            return "#56E012";
-            case 41:
-            return "#15CD2D";
-            case 42:
-            return "#A277FB";
-            case 43:
-            return "#FF7F00";
-            case 44:
-            return T(
-              [
-                "#b493d3",
-                "#ffe6f4",
-              ][Math.floor((Date.now() / 400) % 2)],
-              [
-                "#ffe6f4",
-                "#b493d3"
-              ][Math.floor((Date.now() / 400) % 2)],
-              (Date.now() / 400) % 1
-            );
-              case 45:
-            return "#b493d3";
-              case 46:
-            return "#ffe6f4";
-              case 47:
-            return "#008080";
-          case 48:
-            return "#8FFF00";
-          case 49:
-            return "#FEFCAA";
-          case 50:
-            return "#d21fff";
-          case 51:
-            return "#B35ED8";
-          case 52:
-            return "#0531CB";
           default:
             return "#ff0000";
         }
