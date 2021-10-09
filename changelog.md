@@ -1,5 +1,10 @@
 # Update and change look
 
+# 09/10/2021 V2
+- added new celestial called "xarzugs"
+- added new color
+- fixed trapper relaod and bullet speed!
+
 # 09/10/2021
 - fixed a bug where some poeple coudn´t join
 - reworked some colors
