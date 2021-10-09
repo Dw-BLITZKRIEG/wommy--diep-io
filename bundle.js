@@ -325,10 +325,10 @@
             return "#ff9000";
           case 34:
             return "#00e00b";
-          case 35:
+          case 37:
             return "#ffd300";
             
-          case 37:
+          case 35:
             return "#fff200";
           case 36:
             return T(
