@@ -3668,25 +3668,8 @@
                     Math.round(c + 165) + 0.5,
                     Math.round(d - 10 - 4) + 0.5,
                     32,
-                    150 > Date.now() % 300 ?  (
-              [
-                "#ff1000",
-                "#ff9000",
-                "#ffd300",
-                "#00e00b",
-                "#226ef6",
-                "#a913cf"
-              ][Math.floor((Date.now() / 200) % 6)],
-              [
-                "#ff9000",
-                "#ffd300",
-                "#00e00b",
-                "#226ef6",
-                "#a913cf",
-                "#ff1000"
-              ][Math.floor((Date.now() / 200) % 6)],
-              (Date.now() / 200) % 1
-            )
+                    150 > Date.now() % 300 ? l.red : l.blue, 
+            
                     "center"
                   );
                 if (z.name.includes("Dev⠀"))
@@ -3919,13 +3902,13 @@
                       "center",
                       !0
                     );
-                  if (b.label.includes("Dev⠀"))
+                  if (b.label.includes("[DEV]"))
                     ca[a].draw(
                       b.label + ": " + H.handleLargeNumber(Math.round(b.score)),
                       c + 100,
                       d + 7,
                       9,
-                      l.yellow,
+                      l.red,
                       "center",
                       !0
                     );
