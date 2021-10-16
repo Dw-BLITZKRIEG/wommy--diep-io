@@ -330,7 +330,7 @@
           case 38:
             return "#00ff77";
             case 39:
-            return "#008080";
+            return "#197001";
           case 35:
             return "#fff200";
           case 36:
