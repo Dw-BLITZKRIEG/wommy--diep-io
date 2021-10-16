@@ -1,5 +1,10 @@
 # Update and change look
 
+# 16/10/2021 [Spooky Month]
+- replaced rocks with "pumkins"
+- added new event map with pumkins
+- fixed obstacle/pumkin spawnig function 
+
 # 16/10/2021
 - added new celestial called "traxzug"
 - added new color, called "posion blue"

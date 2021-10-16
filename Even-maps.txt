@@ -1,0 +1,99 @@
+                     //2tdm
+//with pumkins
+ "ROOM_SETUP": [
+    ["bas1", "acsp", "norm", "norm", "norm", "norm", "bas3"],
+    ["bas1", "norm", "norm", "norm", "norm", "norm", "bas3"],
+    ["bas1", "norm", "roid", "norm", "roid", "norm", "bas3"],
+    ["bas1", "norm", "norm", "nest", "norm", "norm", "bas3"],
+    ["bas1", "norm", "roid", "norm", "roid", "norm", "bas3"],
+    ["bas1", "norm", "norm", "norm", "norm", "norm", "bas3"],
+    ["bas1", "norm", "norm", "norm", "norm", "norm", "bas3"]
+  ],
+  //without pumkins
+   "ROOM_SETUP": [
+    ["bas1", "acsp", "norm", "norm", "norm", "norm", "bas3"],
+    ["bas1", "norm", "norm", "norm", "norm", "norm", "bas3"],
+    ["bas1", "norm", "norm", "norm", "norm", "norm", "bas3"],
+    ["bas1", "norm", "norm", "nest", "norm", "norm", "bas3"],
+    ["bas1", "norm", "norm", "norm", "norm", "norm", "bas3"],
+    ["bas1", "norm", "norm", "norm", "norm", "norm", "bas3"],
+    ["bas1", "norm", "norm", "norm", "norm", "norm", "bas3"]
+  ],
+                 //Domination
+                   //with pumkins 
+ 
+    "ROOM_SETUP": [
+    ["bas1", "bap1", "norm", "norm", "norm", "norm", "roid", "norm", "norm", "norm", "norm", "acsp", "norm"],
+    ["bap1", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ,"norm", "norm", "norm"],
+    ["norm", "norm", "norm", "dom3", "norm", "norm", "norm", "norm", "norm", "dom2", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "nest", "roid", "norm", "roid", "nest", "norm", "norm", "norm", "norm"],
+    ["acsp", "norm", "norm", "norm", "nest", "norm", "dom1", "norm", "nest", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "nest", "roid", "norm", "roid", "nest", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "dom4", "norm", "norm", "norm", "norm", "norm", "dom5", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "bap3"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "roid", "norm", "norm", "norm", "norm", "bap3", "bas3"]
+  ],
+  //without pumkins
+    "ROOM_SETUP": [
+    ["bas1", "bap1", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "acsp", "norm"],
+    ["bap1", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm" ,"norm", "norm", "norm"],
+    ["norm", "norm", "norm", "dom3", "norm", "norm", "norm", "norm", "norm", "dom2", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "nest", "norm", "norm", "norm", "nest", "norm", "norm", "norm", "norm"],
+    ["acsp", "norm", "norm", "norm", "nest", "norm", "dom1", "norm", "nest", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "nest", "norm", "norm", "norm", "nest", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "nest", "nest", "nest", "nest", "nest", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "dom4", "norm", "norm", "norm", "norm", "norm", "dom5", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "bap3"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "norm", "bap3", "bas3"]
+  ],
+                           //Siege
+                              //with Pumkins
+ /"ROOM_SETUP": [
+    ["norm", "norm", "acsp", "acsp", "norm", "norm", "acsp"],
+    ["norm", "norm", "norm", "bad1", "norm", "norm", "norm"],
+    ["acsp", "norm", "bas1", "dom3", "bas1", "norm", "norm"],
+    ["norm", "bad1", "dom1", "nest", "dom2", "bad1", "norm"],
+    ["norm", "norm", "bas1", "dom4", "bas1", "norm", "norm"],
+    ["norm", "norm", "norm", "bad1", "norm", "norm", "norm"],
+    ["acsp", "norm", "norm", "acsp", "norm", "norm", "acsp"]
+   
+  ],
+  //Without Pumkins
+   "ROOM_SETUP": [
+    ["norm", "norm", "acsp", "acsp", "norm", "norm", "acsp"],
+    ["norm", "norm", "norm", "bad1", "norm", "norm", "norm"],
+    ["acsp", "roid", "bas1", "dom3", "bas1", "roid", "norm"],
+    ["norm", "bad1", "dom1", "nest", "dom2", "bad1", "norm"],
+    ["norm", "roid", "bas1", "dom4", "bas1", "roid", "norm"],
+    ["norm", "norm", "norm", "bad1", "norm", "norm", "norm"],
+    ["acsp", "norm", "norm", "acsp", "norm", "norm", "acsp"]
+  
+  ],
+                  //Test-server
+    //with pumkins
+"ROOM_SETUP": [
+    ["norm", "norm", "norm", "roid", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "roid", "nest", "roid", "norm", "norm"],
+    ["roid", "norm", "nest", "nest", "nest", "norm", "roid"],
+    ["norm", "norm", "roid", "nest", "roid", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "roid", "norm", "norm", "norm"]
+  ],
+  //without pumkins
+   "ROOM_SETUP": [
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "nest", "norm", "norm", "norm"],
+    ["norm", "norm", "nest", "nest", "nest", "norm", "norm"],
+    ["norm", "norm", "norm", "nest", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm"],
+    ["norm", "norm", "norm", "norm", "norm", "norm", "norm"]
+  ],
