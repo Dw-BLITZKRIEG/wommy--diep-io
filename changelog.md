@@ -1,5 +1,11 @@
 # Update and change look
 
+# 16/10/2021
+- added new celestial called "traxzug"
+- added new color, called "posion blue"
+- added new mega boss called "Legandary elite Ultimate"
+- Wd may be dead for a while, causing the problem are no ideas! you can submid one at suggestions in my discord server!!!!
+
 # 09/10/2021 V2
 - added new celestial called "xarzugs"
 - added new color
