@@ -1,5 +1,11 @@
 # Update and change look
 
+# 16/10/2021 [Spooky Month] [2/?]
+- return of the mothership?!
+- added fallen mothership
+- fixed a bug, where Arena Closer couldn´t go through rocks
+
+
 # 16/10/2021 [Spooky Month]
 - replaced rocks with "pumkins"
 - added new event map with pumkins
