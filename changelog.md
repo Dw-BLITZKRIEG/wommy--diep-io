@@ -1,5 +1,11 @@
 # Update and change look
 
+# 22/10/2021 [Spooky Month] [4/?]
+- added 2 new tanks called "submarine" and "destroyer"
+- submarine upgrades from cruiser
+- destroyer upgrades from cruiser
+- changed the old destroyer to exploder
+
 # 22/10/2021 [Spooky Month] [3/?]
 - reworked the logo!
 
