@@ -1,5 +1,9 @@
 # Update and change look
 
+# 22/10/2021 [Spooky Month] [3/?]
+- reworked the logo!
+
+
 # 16/10/2021 [Spooky Month] [2/?]
 - return of the mothership?!
 - added fallen mothership
