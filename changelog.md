@@ -1,5 +1,15 @@
 # Update and change look
 
+# 23/10/2021 [Spooky Month] [5/?]
+- added TONS of new tanks
+- compltetly reworked trapper branch
+- added over trapper, over gunner, trapisc and trapiscle, all upgrade from trapper exept "trapiscle" upgrades from trapsic
+- added new tank called "flank-grower", upgrades from twin grower
+- completly reworked the last layer of all celestials
+- added another tank called "drone-keeper" upgrades from overseer
+- reworked the desgin of trapper branch
+- reworked all celestials trapper turret design
+
 # 22/10/2021 [Spooky Month] [4/?]
 - added 2 new tanks called "submarine" and "destroyer"
 - submarine upgrades from cruiser
