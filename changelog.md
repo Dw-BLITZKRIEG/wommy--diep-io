@@ -1,5 +1,10 @@
 # Update and change look
 
+# 23/10/2021 [Spooky Month] [6/?]
+
+ --Return of the Mothership?!--
+- re-added mothership mode
+
 # 23/10/2021 [Spooky Month] [5/?]
 - added TONS of new tanks
 - compltetly reworked trapper branch
