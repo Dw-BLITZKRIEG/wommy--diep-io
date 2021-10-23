@@ -4685,7 +4685,7 @@
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "t", to: "Test-server" },
-              { id: "m", to: "Mothership", remove: "2" },
+              { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
             ]
           ]
@@ -4731,7 +4731,16 @@
             // featured: 1, // For Featured Status.
             prefer: !0,
             featured: 1 // For Featured Status.
-          
+           }, {
+            
+            visible: 0,
+            id: "Mothership",
+            type: "Mothership",
+            code: "glitch-frankfurt-M",
+            at: p.glitch("wd-server5"),
+            // featured: 1, // For Featured Status.
+            prefer: !0,
+            featured: 1 // For Featured Status.
           }
         ]
           .map((a, e) => ({ data: a, i: e }))

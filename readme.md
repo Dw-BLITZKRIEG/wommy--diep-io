@@ -3,7 +3,7 @@
 before u do smothing take a look at: remix license!
 
 
-The offical client for the arras-mayhem server.
+The offical client for the wommy-diep server.
 # Features
 - Sound effects!
 - Music!
