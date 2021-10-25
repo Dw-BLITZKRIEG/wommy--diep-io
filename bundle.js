@@ -3764,21 +3764,21 @@
                   (m -= 40));
                 if (B.graphical.screenshotMode)
                   W[6].draw(
-                    "Arras.io",
+                    "Wommy-diep",
                     h + 200,
                     m - 2,
                     15,
-                    l.guiwhite,
+                    l.blue,
                     "right"
                   );
                 else {
                   if (b.showDebug) {
                     W[6].draw(
-                      "Arras.io",
+                      "Wommy-diep",
                       h + 200,
                       m - 84 - 2,
                       15,
-                      l.guiwhite,
+                      l.blue,
                       "right"
                     );
                     let b = t.getPeriodicAverage();
@@ -3811,11 +3811,11 @@
                     );
                   } else
                     W[6].draw(
-                      "Arras.io",
+                      "Wommy-diep",
                       h + 200,
                       m - 42 - 2,
                       15,
-                      l.guiwhite,
+                      l.blue,
                       "right"
                     );
                   W[2].draw(
@@ -3823,7 +3823,7 @@
                     h + 200,
                     m - 28,
                     10,
-                    10 < J.rendertime ? l.guiwhite : l.orange,
+                    10 < J.rendertime ? l.pink : l.red,
                     "right"
                   );
                   W[1].draw(
@@ -3831,7 +3831,7 @@
                     h + 200,
                     m - 14,
                     10,
-                    1 === A.fps ? l.guiwhite : l.orange,
+                    1 === A.fps ? l.orange : l.red,
                     "right"
                   );
                   W[0].draw(
@@ -3844,7 +3844,7 @@
                     h + 200,
                     m,
                     10,
-                    l.guiwhite,
+                    l.green,
                     "right"
                   );
                 }
@@ -3866,7 +3866,7 @@
                     Math.round(c + 100) + 0.5,
                     Math.round(d - 10) + 0.5,
                     18,
-                    l.guiwhite,
+                    l.red,
                     "center"
                   );
                 for (

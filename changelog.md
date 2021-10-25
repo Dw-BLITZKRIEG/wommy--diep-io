@@ -1,5 +1,8 @@
 # Update and change look
 
+# 25/10/2021 [Spooky Month] [7/?]
+- highlighted some important stats, like fps, ms, etc...
+
 # 23/10/2021 [Spooky Month] [6/?]
 
  --Return of the Mothership?!--
