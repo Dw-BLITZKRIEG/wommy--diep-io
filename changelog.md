@@ -1,5 +1,9 @@
 # Update and change look
 
+# 25/10/2021 [Spooky Month] [8/?]
+- added a new dominator called "Sharpener Dominator"
+- sharpener dom. is a skimmer version of a dom., also it shoots a "booster bullet"!
+
 # 25/10/2021 [Spooky Month] [7/?]
 - highlighted some important stats, like fps, ms, etc...
 
