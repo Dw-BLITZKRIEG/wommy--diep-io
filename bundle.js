@@ -4622,7 +4622,6 @@
         KEY_MOUSE_1: 9,
         KEY_MOUSE_2: 16,
         KEY_FUCK_YOU: 192,
-        KEY_OP: 86,
         KEY_CHAT: 191,
         KEY_GOD: 80,
         KEY_KILL_YOURSELF: 103,
@@ -5466,9 +5465,6 @@
                 case a.KEY_FUCK_YOU:
                   this.emit("0");
                   break;
-                  case a.KEY_OP :
-             	this.emit("V");
-              	break;
                 case a.KEY_KILL_YOURSELF:
                   this.emit("K");
                   break;
