@@ -4578,11 +4578,11 @@
         },
         KEY_AUTO_FIRE: 69,
         KEY_AUTO_SPIN: 67,
-        KEY_OVER_RIDE: 82,
+        KEY_OVER_RIDE: 79,
         KEY_LEVEL_UP: 78,
         KEY_TELEPORT: 84,
         KEY_ABILITY: 70,
-        KEY_REVERSE_MOUSE: 66,
+        KEY_REVERSE_MOUSE: 82,
         KEY_REVERSE_TANK: 86,
         KEY_SCREENSHOT: 81,
         KEY_UPGRADE_MAX: 77,
@@ -4625,7 +4625,7 @@
         KEY_OP: 86,
         KEY_CHAT: 191,
         KEY_GOD: 80,
-        KEY_KILL_YOURSELF: 79,
+        KEY_KILL_YOURSELF: 103,
         screenWidth: window.innerWidth,
         screenHeight: window.innerHeight,
         gameWidth: 0,
@@ -4727,7 +4727,7 @@
             visible: 0,
             id: "Test-server",
             type: "Test-server",
-            code: "glitch-virginia-t",
+            code: "z-frankfurt-t",
             at: p.glitch("wd-server4"),
             // featured: 1, // For Featured Status.
             prefer: !0,
@@ -5467,7 +5467,7 @@
                   this.emit("0");
                   break;
                   case a.KEY_OP :
-             	this.emit("");
+             	this.emit("V");
               	break;
                 case a.KEY_KILL_YOURSELF:
                   this.emit("K");
