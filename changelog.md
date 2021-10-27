@@ -1,5 +1,9 @@
 # Update and change look
 
+# 27/10/2021 [Spooky Month] [9/?]
+- reworked all colors...
+- added a function [dev only] that allows you to close a server if you press x
+
 # 25/10/2021 [Spooky Month] [8/?]
 - added a new dominator called "Sharpener Dominator"
 - sharpener dom. is a skimmer version of a dom., also it shoots a "booster bullet"!
