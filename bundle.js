@@ -5469,8 +5469,8 @@
                 case a.KEY_CLOSE:
                   this.emit("CLOSEARENA");
                   break;
-                case a.KEY_KILL_YOURSELF:
-                  this.emit("K");
+                case a.KEY_KILL:
+                  this.emit("Kill");
                   break;
                 case a.KEY_REVERSE_MOUSE:
                   this.emit("O");
