@@ -1,5 +1,8 @@
 # Update and change look
 
+# 29/10/2021 [Spooky Month] [9/?]
+- nerfed all doms, thanks to the feedback!
+
 # 27/10/2021 [Spooky Month] [9/?]
 - reworked all colors...
 - added a function [dev only] that allows you to close a server if you press x
