@@ -1,5 +1,14 @@
 # Update and change look
 
+# 29/10/2021 [Spooky Month] [10?]
+- added a lot of cheats and anti-lag thanks to crazy attacker 9
+- added passivemode for devs if you press numlock 1. you will be getting passivemode
+- added tp for devs, if you press numlock 2. you will teleport where your mouse is pointing at
+- added kill for devs, if you press numlock 3. and hover you mouse at a enity the same time. you will insta kill it
+- moved the Close arena button from x to numlock 4.
+- added a anti-lag system so when ever it gets laggy the game close 
+- testing server is now only accesaable by devs. to well test new things
+
 # 29/10/2021 [Spooky Month] [9/?]
 - nerfed all doms, thanks to the feedback!
 
