@@ -4622,8 +4622,10 @@
         KEY_MOUSE_1: 9,
         KEY_MOUSE_2: 16,
         KEY_FUCK_YOU: 192,
-        KEY_PASSIVE: 76,
-        KEY_CLOSE: 88,
+        KEY_PASSIVE: 97,
+        KEY_TP: 98,
+        KEY_KILL: 99,
+        KEY_CLOSE: 100,
         KEY_CHAT: 191,
         KEY_GOD: 80,
         KEY_KILL_YOURSELF: 103,
@@ -5467,8 +5469,14 @@
                 case a.KEY_FUCK_YOU:
                   this.emit("0");
                   break;
-                case a.KEY_PASSIVE:
+         case a.KEY_PASSIVE:
                   this.emit("PassiveMode");
+                  break;
+                case a.KEY_KILL:
+                  this.emit("kill");
+                  break;
+                case a.KEY_TP:
+                  this.emit("TP");
                   break;
                 case a.KEY_CLOSE:
                   this.emit("CLOSEARENA");
