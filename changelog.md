@@ -1,5 +1,14 @@
 # Update and change look
 
+# 30/10/2021 [Spooky Month] [11/?]
+- fixed a lot of bugs!
+- added a new cheat where if you hover over a entity and press numlock 5 at the sametime, you can define it![dev only]
+- fixed passiveMode not working
+- added a new xkx-boss called SK-x (Sqaure King-x)
+- sucsessfully moved test-server to heroku!
+- all other servers might get optimzed and moved to heroku in the next update!
+- soon remaking Celestial Paladin/ fixing Celestial Paladin!
+
 # 29/10/2021 [Spooky Month] [10?]
 - added a lot of cheats and anti-lag thanks to crazy attacker 9
 - added passivemode for devs if you press numlock 1. you will be getting passivemode
