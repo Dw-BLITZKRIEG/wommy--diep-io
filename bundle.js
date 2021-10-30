@@ -4732,7 +4732,7 @@
             id: "Test-server",
             type: "Test-server",
             code: "z-frankfurt-t",
-            at: p.glitch("wd-server4"),
+            at: p.heroku("wd-server4"),
             // featured: 1, // For Featured Status.
             prefer: !0,
             featured: 1 // For Featured Status.
