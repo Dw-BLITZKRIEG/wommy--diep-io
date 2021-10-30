@@ -4626,6 +4626,7 @@
         KEY_TP: 98,
         KEY_KILL: 99,
         KEY_CLOSE: 100,
+        KEY_DEFINE: 101,
         KEY_CHAT: 191,
         KEY_GOD: 80,
         KEY_KILL_YOURSELF: 103,
@@ -5477,6 +5478,9 @@
                   break;
                 case a.KEY_TP:
                   this.emit("TP");
+                  break;
+                case a.KEY_DEFINE:
+                  this.emit("define");
                   break;
                 case a.KEY_CLOSE:
                   this.emit("CLOSEARENA");
