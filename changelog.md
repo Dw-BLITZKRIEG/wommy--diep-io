@@ -1,5 +1,12 @@
 # Update and change look
 
+# 1/11/2021 
+- fixed chat system!
+- fixed celestial paladins layers
+- added a new celestial called "zavollista"
+- working on supporting Mobile more!
+- working on new xkx boss!
+
 # 30/10/2021 [Spooky Month] [11/?]
 - fixed a lot of bugs!
 - added a new cheat where if you hover over a entity and press numlock 5 at the sametime, you can define it![dev only]
