@@ -4686,13 +4686,13 @@
               { id: "4", to: "4 Team", end: "4TDM" }
             ],
             [
-              { id: "d", to: "2tdm Domination" },
+              { id: "d", to: "Domination" },
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "t", to: "Test-server" },
               { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
-            ]
+              ]
           ]
         ],
         timezone: new Date().getTimezoneOffset() / -60,
@@ -4711,7 +4711,7 @@
             visible: 0,
             id: "Domination",
             type: "Domination",
-            code: "glitch-la-d",
+            code: "glitch-la-2d",
             at: p.glitch("wd-server2"),
             // featured: 1, // For Featured Status.
             prefer: !0,
