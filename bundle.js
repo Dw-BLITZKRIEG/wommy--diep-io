@@ -4701,8 +4701,8 @@
             visible: 0,
             id: "2tdm",
             type: "2tdm",
-            code: "glitch-virginia-2",
-            at: p.glitch("wd-server1"),
+            code: "replit-virginia-2",
+            at: p.replit("wd-server1"),
             // featured: 1, // For Featured Status.
             prefer: !0,
             featured: 1 // For Featured Status.
