@@ -4690,6 +4690,7 @@
               { id: "x", to: "Event" },
               { id: "s", to: "Siege" },
               { id: "t", to: "Test-server" },
+              { id: "D", to: "Dev-server" },
               { id: "M", to: "Mothership", remove: "2" },
               { id: "a", to: "Assault", remove: "2" }
               ]
@@ -4729,10 +4730,20 @@
             }, {
             
             visible: 0,
+            id: "Dev-server",
+            type: "Dev-server",
+            code: "z-frankfurt-D",
+            at: p.heroku("wd-server4"),
+            // featured: 1, // For Featured Status.
+            prefer: !0,
+            featured: 1 // For Featured Status.
+           }, {
+            
+            visible: 0,
             id: "Test-server",
             type: "Test-server",
-            code: "z-frankfurt-t",
-            at: p.heroku("wd-server4"),
+            code: "glitch-frankfurt-t",
+            at: p.glitch("wd-testserver"),
             // featured: 1, // For Featured Status.
             prefer: !0,
             featured: 1 // For Featured Status.
